@@ -1,0 +1,31 @@
+{
+  "database": {
+    "db_path": "data/news.db"
+  },
+  "news": {
+    "sources": [
+      "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
+    ],
+    "rss_url": "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko",
+    "crawl_url": "https://news.ycombinator.com/news",
+    "duplicate_policy": "skip"
+  },
+  "request": {
+    "timeout": 10,
+    "delay": 1.0
+  },
+  "gemini": {
+    "api_key_env": "GEMINI_API_KEY",
+    "model": "gemini-3.6-flash"
+  },
+  "paths": {
+    "reports_dir": "data/reports",
+    "exports_dir": "data/exports",
+    "charts_dir": "data/charts",
+    "logs_dir": "logs"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log"
+  }
+}
