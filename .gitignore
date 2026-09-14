@@ -19,14 +19,14 @@ venv/
 env/
 
 # Runtime data
-logs/
-*.log
-data/*.db
-data/*.sqlite
-data/*.sqlite3
-data/reports/
-data/exports/
-data/charts/
+# 잉시 평가용 logs/
+# 잉시 평가용 *.log
+# 잉시 평가용  data/*.db
+# 임시 평가용 data/*.sqlite
+# 잉시 평가용 data/*.sqlite3
+# 잉시 평가용 data/reports/
+# 잉시 평가용 data/exports/
+# 잉시 평가용 data/charts/
 
 # Local editor/system files
 .vscode/

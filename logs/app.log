@@ -1,0 +1,1043 @@
+[ERROR] feedparser package is required for RSS collection.
+[ERROR] requests and beautifulsoup4 packages are required for crawling.
+[INFO] RSS news collection started: source=rss, limit=10
+[INFO] Crawl news collection started: source=https://news.ycombinator.com/news, limit=5
+[ERROR] RSS parse failed: url=https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko error=<urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>
+[INFO] RSS news collection completed: fetched=0, saved=0, skipped=0, failed=1
+[ERROR] Crawl request failed: url=https://news.ycombinator.com/news error=HTTPSConnectionPool(host='news.ycombinator.com', port=443): Max retries exceeded with url: /news (Caused by NewConnectionError("HTTPSConnection(host='news.ycombinator.com', port=443): Failed to establish a new connection: [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다"))
+[INFO] Crawl news collection started: source=https://news.ycombinator.com/news, limit=5
+[INFO] Crawl news collection completed: fetched=5, saved=5, skipped=0, failed=0
+[INFO] RSS news collection started: source=rss, limit=10
+[INFO] RSS news collection completed: fetched=10, saved=10, skipped=0, failed=0
+[INFO] RSS news collection started: source=rss, limit=3
+[INFO] Duplicate RSS news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+[INFO] Duplicate RSS news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+[INFO] Duplicate RSS news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+[INFO] RSS news collection completed: fetched=3, saved=0, skipped=3, failed=0
+[INFO] News cleaning started: policy=skip, limit=None
+[INFO] News cleaning completed: inserted=15, updated=0, skipped=0, failed=0
+[INFO] News cleaning started: policy=upsert, limit=None
+[INFO] News cleaning started: policy=skip, limit=5
+[INFO] Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+[INFO] News cleaning completed: inserted=0, updated=15, skipped=0, failed=0
+[INFO] Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+[INFO] Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+[INFO] Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+[INFO] Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+[INFO] News cleaning completed: inserted=0, updated=0, skipped=5, failed=0
+[INFO] News cleaning started: policy=skip, limit=None
+[INFO] Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+[INFO] Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+[INFO] Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+[INFO] Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+[INFO] Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5MMFRsS0ZTS2JTSm1qc21WZDgxQUNZTHd4Wmx5X0Vnc3hYTTZCWVpyM0tjZWhNSzlERzdZQXpXdDdsdnF6NXJRODhtUkllOVk5S1BYZ2dURExEMG82OXNLcnlFUHQ0cFR3VW1MbUNIeFFPQQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE50NWQ3d0FBZlI5TGVIaHBXbUZyMW1PRXpaSjNLaG5PU1BRWVU3SlJfaHgzRWp2T0d2SXVWSkNFMm92T1VKU21ERFFjZjhnYUk4VVozNzA3VDM5MjdybGtzX18tdDhudWktY2ktNmZEclE2RHVK?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRHBEbGxIQjBuWVVDX2hGUFRRS0pKWGhYalJoQ1RMeG1zaWVBSl9OY0wyTkpQaHBXYmloV3ZSUTZnd2JTdm1tX1pnWU9vdzQ3UFQ3VnpCT1pCSjQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQVJnM0pSaXlaclNpLUQ5cHZDSWotbEN1SDMxNjlJS1kySnFBYzVBaUIyWW1USnNLc1VGUENwNVNRSTdPSDlFNk44bTkyUlpMQ280X2lJX1VMMVRQdHVHdWFWTlR1LVdMa0h4dFFyUjkyT0My?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySmMtekUtcFU1NkJEYmRneGUtaGVUZldOcFNiOUFuS3FwY013R0lfT29FYTlvWU9NYWUxbzJBTktxcXl3bi1BMTRqa3pVdGJ3R0dxN2NqOGxGZE3SAWBBVV95cUxOUFBWRWF2V2JiSzF1VDRfUDNISFU2eWs1Tjd0R083VDB6R0hTbmVhZFRMSENOaS05b0xQVEZ1ZWxXYjE4b0liZVJIMFZaSlY1d1NQeXJxNjg5MlZxb0E3SGo?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFA4ZGhLRl9FV1dmNkd4NFp6UTJNWW4tSmI5UDdvY3NvSmRQLVFCbnd4YlVZSUhsNm9LQlVqeEQzOTMxQjF1MWhFRjBmV2VsVjFrRV9MRDF0djFEQ1FhYjVCSGRBb2tDRGZMQ3NzbWcwNGRPMWV3UHVB0gFmQVVfeXFMTlVQOVNNYlBLaWpfTWcxaFpfc0liU2wta0I4dVkwUnB1YzFkbDVydkhQbWhzZGl4TDRBQlZUTWJxcjZncmhCWnN1QkFqMF9NNnNVQ294NlZpTkNUd05zLXl4blpyS1Rn?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDd3Nk54OG1JZHV0WlFjdEYwRzdRVkE1cVpuTEZiSVE3OFI3WENMVjNwWmJGTllVSVFPb3M4X1ZsTVRscjhRdDNXT2MtOVZ0NmRwX2gwcVNLeHJ4bXBGZDVMSVVYZzRZcXY0REZTRmZHTWRuTHI3bk9xcVpfS2xiZ0FB?oc=5
+[INFO] News cleaning completed: inserted=0, updated=0, skipped=15, failed=0
+[INFO] RSS news collection started: source=rss, limit=10
+[WARNING] Existing raw news content fallback applied: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+[WARNING] Existing raw news content fallback applied: url=https://github.com/iczelia/bzip3
+[WARNING] Existing raw news content fallback applied: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+[WARNING] Existing raw news content fallback applied: url=https://mathathonchallenge.com/index.html
+[WARNING] Existing raw news content fallback applied: url=https://jyn.dev/simple-is-not-the-same-as-small/
+[WARNING] Existing raw news rows backfilled with title content: count=5
+[INFO] RSS news collection completed: fetched=10, saved=10, skipped=0, failed=0
+[INFO] Crawl news collection started: source=https://news.ycombinator.com/news, limit=5
+[WARNING] Crawled content fallback applied: url=https://jellyfin.org/posts/jellyfin-release-12.0/
+[WARNING] Crawled content fallback applied: url=https://mcpherrin.ca/2026/09/07/rsa.html
+[WARNING] Crawled content fallback applied: url=https://d2lang.com/blog/tala-is-open-source/
+[WARNING] Crawled content fallback applied: url=https://lax-skyline.parcelscope.net/
+[WARNING] Crawled content fallback applied: url=https://github.com/Sadpainy/Stuxnet
+[INFO] Crawl news collection completed: fetched=5, saved=5, skipped=0, failed=0
+[INFO] News cleaning started: policy=skip, limit=None
+[INFO] Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+[INFO] Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+[INFO] Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+[INFO] Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+[INFO] Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5MMFRsS0ZTS2JTSm1qc21WZDgxQUNZTHd4Wmx5X0Vnc3hYTTZCWVpyM0tjZWhNSzlERzdZQXpXdDdsdnF6NXJRODhtUkllOVk5S1BYZ2dURExEMG82OXNLcnlFUHQ0cFR3VW1MbUNIeFFPQQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE50NWQ3d0FBZlI5TGVIaHBXbUZyMW1PRXpaSjNLaG5PU1BRWVU3SlJfaHgzRWp2T0d2SXVWSkNFMm92T1VKU21ERFFjZjhnYUk4VVozNzA3VDM5MjdybGtzX18tdDhudWktY2ktNmZEclE2RHVK?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRHBEbGxIQjBuWVVDX2hGUFRRS0pKWGhYalJoQ1RMeG1zaWVBSl9OY0wyTkpQaHBXYmloV3ZSUTZnd2JTdm1tX1pnWU9vdzQ3UFQ3VnpCT1pCSjQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQVJnM0pSaXlaclNpLUQ5cHZDSWotbEN1SDMxNjlJS1kySnFBYzVBaUIyWW1USnNLc1VGUENwNVNRSTdPSDlFNk44bTkyUlpMQ280X2lJX1VMMVRQdHVHdWFWTlR1LVdMa0h4dFFyUjkyT0My?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySmMtekUtcFU1NkJEYmRneGUtaGVUZldOcFNiOUFuS3FwY013R0lfT29FYTlvWU9NYWUxbzJBTktxcXl3bi1BMTRqa3pVdGJ3R0dxN2NqOGxGZE3SAWBBVV95cUxOUFBWRWF2V2JiSzF1VDRfUDNISFU2eWs1Tjd0R083VDB6R0hTbmVhZFRMSENOaS05b0xQVEZ1ZWxXYjE4b0liZVJIMFZaSlY1d1NQeXJxNjg5MlZxb0E3SGo?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFA4ZGhLRl9FV1dmNkd4NFp6UTJNWW4tSmI5UDdvY3NvSmRQLVFCbnd4YlVZSUhsNm9LQlVqeEQzOTMxQjF1MWhFRjBmV2VsVjFrRV9MRDF0djFEQ1FhYjVCSGRBb2tDRGZMQ3NzbWcwNGRPMWV3UHVB0gFmQVVfeXFMTlVQOVNNYlBLaWpfTWcxaFpfc0liU2wta0I4dVkwUnB1YzFkbDVydkhQbWhzZGl4TDRBQlZUTWJxcjZncmhCWnN1QkFqMF9NNnNVQ294NlZpTkNUd05zLXl4blpyS1Rn?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDd3Nk54OG1JZHV0WlFjdEYwRzdRVkE1cVpuTEZiSVE3OFI3WENMVjNwWmJGTllVSVFPb3M4X1ZsTVRscjhRdDNXT2MtOVZ0NmRwX2gwcVNLeHJ4bXBGZDVMSVVYZzRZcXY0REZTRmZHTWRuTHI3bk9xcVpfS2xiZ0FB?oc=5
+[INFO] News cleaning completed: inserted=15, updated=0, skipped=15, failed=0
+[INFO] News cleaning started: policy=skip, limit=None
+[INFO] Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+[INFO] Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+[INFO] Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+[INFO] Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+[INFO] Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5MMFRsS0ZTS2JTSm1qc21WZDgxQUNZTHd4Wmx5X0Vnc3hYTTZCWVpyM0tjZWhNSzlERzdZQXpXdDdsdnF6NXJRODhtUkllOVk5S1BYZ2dURExEMG82OXNLcnlFUHQ0cFR3VW1MbUNIeFFPQQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE50NWQ3d0FBZlI5TGVIaHBXbUZyMW1PRXpaSjNLaG5PU1BRWVU3SlJfaHgzRWp2T0d2SXVWSkNFMm92T1VKU21ERFFjZjhnYUk4VVozNzA3VDM5MjdybGtzX18tdDhudWktY2ktNmZEclE2RHVK?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRHBEbGxIQjBuWVVDX2hGUFRRS0pKWGhYalJoQ1RMeG1zaWVBSl9OY0wyTkpQaHBXYmloV3ZSUTZnd2JTdm1tX1pnWU9vdzQ3UFQ3VnpCT1pCSjQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQVJnM0pSaXlaclNpLUQ5cHZDSWotbEN1SDMxNjlJS1kySnFBYzVBaUIyWW1USnNLc1VGUENwNVNRSTdPSDlFNk44bTkyUlpMQ280X2lJX1VMMVRQdHVHdWFWTlR1LVdMa0h4dFFyUjkyT0My?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySmMtekUtcFU1NkJEYmRneGUtaGVUZldOcFNiOUFuS3FwY013R0lfT29FYTlvWU9NYWUxbzJBTktxcXl3bi1BMTRqa3pVdGJ3R0dxN2NqOGxGZE3SAWBBVV95cUxOUFBWRWF2V2JiSzF1VDRfUDNISFU2eWs1Tjd0R083VDB6R0hTbmVhZFRMSENOaS05b0xQVEZ1ZWxXYjE4b0liZVJIMFZaSlY1d1NQeXJxNjg5MlZxb0E3SGo?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFA4ZGhLRl9FV1dmNkd4NFp6UTJNWW4tSmI5UDdvY3NvSmRQLVFCbnd4YlVZSUhsNm9LQlVqeEQzOTMxQjF1MWhFRjBmV2VsVjFrRV9MRDF0djFEQ1FhYjVCSGRBb2tDRGZMQ3NzbWcwNGRPMWV3UHVB0gFmQVVfeXFMTlVQOVNNYlBLaWpfTWcxaFpfc0liU2wta0I4dVkwUnB1YzFkbDVydkhQbWhzZGl4TDRBQlZUTWJxcjZncmhCWnN1QkFqMF9NNnNVQ294NlZpTkNUd05zLXl4blpyS1Rn?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDd3Nk54OG1JZHV0WlFjdEYwRzdRVkE1cVpuTEZiSVE3OFI3WENMVjNwWmJGTllVSVFPb3M4X1ZsTVRscjhRdDNXT2MtOVZ0NmRwX2gwcVNLeHJ4bXBGZDVMSVVYZzRZcXY0REZTRmZHTWRuTHI3bk9xcVpfS2xiZ0FB?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNWdoaDRsbGoyS29IS0xTVXhjYlFpM0NzTUtjbGJGMEstTXZLMThFUUNrS19GcVVYanZybVlVcFNMbXhvb1N6TGFkLV9fT2VfWi0zbkxFRnIxQ1JJZGNRU3ZVX2xZMUk?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uMGJlYjNYWlFpT1FWVFlpWC0yTmhpbHR0bGkyaE1rSTRDZlpRZHJPWDB0VWVVNlY0bjFWUUw3eEpPcFlSMkR1d2hrQmJ2X2xxblM3VEpvMUdEd9IBX0FVX3lxTE5QWHp1TXdjWmczSXkyN3pFR0djUlh3RGIyX1FINDRBOFhMTXNmZlFNelJSV0ZJYnBPWWFwd1E2R0M0c1NVQ0g0NTVPSVliaFVfYlFNdFFPaHh5WWl5c3BN?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxNakNudnBULXdHUTczVEhZYk04SC1JNzgtV2p3bXlxMFZXNGktTUZFb2d6NWc0cFBqcDBYYVhLUU1OQmppTjFYb1ZvM2ViTFFLcGRLNER5amJhczNyUWV0NDZJRXYtTlE3b09ybFZlaFNjUy1LSkdZX0dCZjM1TTUzcVFzQVhWQlZtSVZ1Yk1sVkE?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE5oUEMwT3ZvNFNrcWdfVDhCWkdUY2IwVllhUEZsT1F2amp0VEt5UGhQTGx5MnE5NExHNmFHaDlSdXdJREVXZnNEZjVSV1FPQmRsc2JrbG8tc29YMTBrUlpva3N5cGNhZmZIOHk0?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE0ycXU3Zm9zTTkyNVFWU01WRUlTd09DclhFSXpYeERkMzlRdmZHWTB5U253dm5WLVN3OS02dHotLUhEUWstcW4yb3lmUVBsZjFYd3VFWkNfV3VfcnhQMTJlVFpMcFk4U2Z4eTFqTjdwMkgwUnV6?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMibkFVX3lxTFBLbk1NVUlBNWJfMXBJdTJQSGhobVY4RzdZNk5jZjJxeExIOUtEd3VSdEk3MWtpY0d5MmdnQmxiMWFoeERLYm5EWGJPajRnbXd3cDQxaFhzQXVYdk5NNjFrdzlSSlZ1UG8xMjVrMDZR?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nQU1MSWI5c1Z0cEVvWExpTTJzTnNJMHoxNGxsOTF6WkVIQzUtWHl3VE5rdDRHSzVJU0RpSXdmTzFpdEJmS2pRbkNBUkxrU25fZjVpTDVDM2xyOWc?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5OUjhDSVRRbUFBbTRRVGI0WWRDY2xmdzNDaHlta05mbE53YWhWbmZMa0Q4STY3MGZiWE1qei1heGNNbHVDZTFXRGdpSHdBM1h6QUV0WmxFd295T2JDQmxTUFk4QVJDQjd1TWZUSnpJV3lOdw?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxQa2VLMDJCVzBiNERNMXZXajZnUDJTZFREX2Q4UjgtQmJBNXdtTHBaZ3JRTDMyS01CVWJBTUVSN2dUOHJocXFEMkgxRW9RaE1YeE9JSlU0bmV4OHd0RkFQT3lXQ3hPZ2dzNlJUYUY2MHdQTzU3OXVGZlBDR3BNQ0hOVHRjejNya0pvZzlGbkVNTTE?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tUmI1WS1QNndydV9KNUNvVjQ5TURaN3BFTmM0VWFkaUpFVERZcE1ZSW90a2ZELUlScXF2bFVGalJSSGZFMWlCSFZxc3V0dFJIdVNBeGN0R3VkUlE?oc=5
+[INFO] Duplicate clean news skipped: url=https://jellyfin.org/posts/jellyfin-release-12.0/
+[INFO] Duplicate clean news skipped: url=https://mcpherrin.ca/2026/09/07/rsa.html
+[INFO] Duplicate clean news skipped: url=https://d2lang.com/blog/tala-is-open-source/
+[INFO] Duplicate clean news skipped: url=https://lax-skyline.parcelscope.net/
+[INFO] Duplicate clean news skipped: url=https://github.com/Sadpainy/Stuxnet
+[INFO] News cleaning completed: inserted=0, updated=0, skipped=30, failed=0
+[INFO] News cleaning started: policy=skip, limit=None
+[INFO] Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+[INFO] Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+[INFO] Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+[INFO] Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+[INFO] Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5MMFRsS0ZTS2JTSm1qc21WZDgxQUNZTHd4Wmx5X0Vnc3hYTTZCWVpyM0tjZWhNSzlERzdZQXpXdDdsdnF6NXJRODhtUkllOVk5S1BYZ2dURExEMG82OXNLcnlFUHQ0cFR3VW1MbUNIeFFPQQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE50NWQ3d0FBZlI5TGVIaHBXbUZyMW1PRXpaSjNLaG5PU1BRWVU3SlJfaHgzRWp2T0d2SXVWSkNFMm92T1VKU21ERFFjZjhnYUk4VVozNzA3VDM5MjdybGtzX18tdDhudWktY2ktNmZEclE2RHVK?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRHBEbGxIQjBuWVVDX2hGUFRRS0pKWGhYalJoQ1RMeG1zaWVBSl9OY0wyTkpQaHBXYmloV3ZSUTZnd2JTdm1tX1pnWU9vdzQ3UFQ3VnpCT1pCSjQ?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQVJnM0pSaXlaclNpLUQ5cHZDSWotbEN1SDMxNjlJS1kySnFBYzVBaUIyWW1USnNLc1VGUENwNVNRSTdPSDlFNk44bTkyUlpMQ280X2lJX1VMMVRQdHVHdWFWTlR1LVdMa0h4dFFyUjkyT0My?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySmMtekUtcFU1NkJEYmRneGUtaGVUZldOcFNiOUFuS3FwY013R0lfT29FYTlvWU9NYWUxbzJBTktxcXl3bi1BMTRqa3pVdGJ3R0dxN2NqOGxGZE3SAWBBVV95cUxOUFBWRWF2V2JiSzF1VDRfUDNISFU2eWs1Tjd0R083VDB6R0hTbmVhZFRMSENOaS05b0xQVEZ1ZWxXYjE4b0liZVJIMFZaSlY1d1NQeXJxNjg5MlZxb0E3SGo?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFA4ZGhLRl9FV1dmNkd4NFp6UTJNWW4tSmI5UDdvY3NvSmRQLVFCbnd4YlVZSUhsNm9LQlVqeEQzOTMxQjF1MWhFRjBmV2VsVjFrRV9MRDF0djFEQ1FhYjVCSGRBb2tDRGZMQ3NzbWcwNGRPMWV3UHVB0gFmQVVfeXFMTlVQOVNNYlBLaWpfTWcxaFpfc0liU2wta0I4dVkwUnB1YzFkbDVydkhQbWhzZGl4TDRBQlZUTWJxcjZncmhCWnN1QkFqMF9NNnNVQ294NlZpTkNUd05zLXl4blpyS1Rn?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDd3Nk54OG1JZHV0WlFjdEYwRzdRVkE1cVpuTEZiSVE3OFI3WENMVjNwWmJGTllVSVFPb3M4X1ZsTVRscjhRdDNXT2MtOVZ0NmRwX2gwcVNLeHJ4bXBGZDVMSVVYZzRZcXY0REZTRmZHTWRuTHI3bk9xcVpfS2xiZ0FB?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNWdoaDRsbGoyS29IS0xTVXhjYlFpM0NzTUtjbGJGMEstTXZLMThFUUNrS19GcVVYanZybVlVcFNMbXhvb1N6TGFkLV9fT2VfWi0zbkxFRnIxQ1JJZGNRU3ZVX2xZMUk?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uMGJlYjNYWlFpT1FWVFlpWC0yTmhpbHR0bGkyaE1rSTRDZlpRZHJPWDB0VWVVNlY0bjFWUUw3eEpPcFlSMkR1d2hrQmJ2X2xxblM3VEpvMUdEd9IBX0FVX3lxTE5QWHp1TXdjWmczSXkyN3pFR0djUlh3RGIyX1FINDRBOFhMTXNmZlFNelJSV0ZJYnBPWWFwd1E2R0M0c1NVQ0g0NTVPSVliaFVfYlFNdFFPaHh5WWl5c3BN?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxNakNudnBULXdHUTczVEhZYk04SC1JNzgtV2p3bXlxMFZXNGktTUZFb2d6NWc0cFBqcDBYYVhLUU1OQmppTjFYb1ZvM2ViTFFLcGRLNER5amJhczNyUWV0NDZJRXYtTlE3b09ybFZlaFNjUy1LSkdZX0dCZjM1TTUzcVFzQVhWQlZtSVZ1Yk1sVkE?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE5oUEMwT3ZvNFNrcWdfVDhCWkdUY2IwVllhUEZsT1F2amp0VEt5UGhQTGx5MnE5NExHNmFHaDlSdXdJREVXZnNEZjVSV1FPQmRsc2JrbG8tc29YMTBrUlpva3N5cGNhZmZIOHk0?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE0ycXU3Zm9zTTkyNVFWU01WRUlTd09DclhFSXpYeERkMzlRdmZHWTB5U253dm5WLVN3OS02dHotLUhEUWstcW4yb3lmUVBsZjFYd3VFWkNfV3VfcnhQMTJlVFpMcFk4U2Z4eTFqTjdwMkgwUnV6?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMibkFVX3lxTFBLbk1NVUlBNWJfMXBJdTJQSGhobVY4RzdZNk5jZjJxeExIOUtEd3VSdEk3MWtpY0d5MmdnQmxiMWFoeERLYm5EWGJPajRnbXd3cDQxaFhzQXVYdk5NNjFrdzlSSlZ1UG8xMjVrMDZR?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nQU1MSWI5c1Z0cEVvWExpTTJzTnNJMHoxNGxsOTF6WkVIQzUtWHl3VE5rdDRHSzVJU0RpSXdmTzFpdEJmS2pRbkNBUkxrU25fZjVpTDVDM2xyOWc?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5OUjhDSVRRbUFBbTRRVGI0WWRDY2xmdzNDaHlta05mbE53YWhWbmZMa0Q4STY3MGZiWE1qei1heGNNbHVDZTFXRGdpSHdBM1h6QUV0WmxFd295T2JDQmxTUFk4QVJDQjd1TWZUSnpJV3lOdw?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxQa2VLMDJCVzBiNERNMXZXajZnUDJTZFREX2Q4UjgtQmJBNXdtTHBaZ3JRTDMyS01CVWJBTUVSN2dUOHJocXFEMkgxRW9RaE1YeE9JSlU0bmV4OHd0RkFQT3lXQ3hPZ2dzNlJUYUY2MHdQTzU3OXVGZlBDR3BNQ0hOVHRjejNya0pvZzlGbkVNTTE?oc=5
+[INFO] Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tUmI1WS1QNndydV9KNUNvVjQ5TURaN3BFTmM0VWFkaUpFVERZcE1ZSW90a2ZELUlScXF2bFVGalJSSGZFMWlCSFZxc3V0dFJIdVNBeGN0R3VkUlE?oc=5
+[INFO] Duplicate clean news skipped: url=https://jellyfin.org/posts/jellyfin-release-12.0/
+[INFO] Duplicate clean news skipped: url=https://mcpherrin.ca/2026/09/07/rsa.html
+[INFO] Duplicate clean news skipped: url=https://d2lang.com/blog/tala-is-open-source/
+[INFO] Duplicate clean news skipped: url=https://lax-skyline.parcelscope.net/
+[INFO] Duplicate clean news skipped: url=https://github.com/Sadpainy/Stuxnet
+[INFO] News cleaning completed: inserted=0, updated=0, skipped=30, failed=0
+[INFO] News cleaning started: policy=skip, limit=None
+[INFO] News cleaning completed: inserted=30, updated=0, skipped=0, failed=0
+[INFO] Summarize started
+[INFO] Target news count: 3
+[ERROR] Gemini API key environment variable is missing: GEMINI_API_KEY
+[INFO] Summarize started
+[INFO] Target news count: 0
+[ERROR] Gemini API key environment variable is missing: GEMINI_API_KEY
+[INFO] Summarize started
+[INFO] Target news count: 1
+[INFO] Summarize started
+[INFO] Target news count: 0
+[INFO] No news to summarize.
+[INFO] [SKIP] Short content clean_news_id=31 content_length=21
+[INFO] Summarize completed
+[INFO] Summarize started
+[INFO] Target news count: 0
+[INFO] No news to summarize.
+[INFO] Summarize started
+[INFO] Target news count: 3
+[ERROR] Gemini API key environment variable is missing: GEMINI_API_KEY
+[INFO] Summarize started
+[INFO] Target news count: 10
+[ERROR] Gemini API key environment variable is missing: GEMINI_API_KEY
+[INFO] Summarize started
+[INFO] Target news count: 3
+[ERROR] Gemini API key environment variable is missing: GEMINI_API_KEY
+[INFO] Summarize started
+[INFO] Target news count: 1
+[ERROR] Gemini API key environment variable is missing: GEMINI_API_KEY
+[INFO] Summarize started
+[INFO] Target news count: 3
+[INFO] [SKIP] Short content clean_news_id=32 content_length=5
+[INFO] [SKIP] Short content clean_news_id=33 content_length=24
+[INFO] Summarizing clean_news_id=34 title="Caltech Mathathon – first hackathon ever devoted to research level mathematics"
+[INFO] AFC is enabled with max remote calls: 10.
+[WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+[ERROR] Gemini failed clean_news_id=34 error="404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+[INFO] Summarize completed
+[INFO] Summarize started
+[INFO] Target news count: 3
+[INFO] Summarizing clean_news_id=34 title="Caltech Mathathon – first hackathon ever devoted to research level mathematics"
+[INFO] AFC is enabled with max remote calls: 10.
+[WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+[ERROR] Gemini failed clean_news_id=34 error="404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+[INFO] [SKIP] Short content clean_news_id=35 content_length=19
+[INFO] Summarizing clean_news_id=36 title="[속보]초대 중수청장 최종 후보자에 보완수사권 폐지 공개 반대했던 ‘검찰 출신’ 김지용 변호사 - 경향신문"
+[INFO] AFC is enabled with max remote calls: 10.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+[ERROR] Gemini failed clean_news_id=36 error="404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+[INFO] Summarize completed
+[INFO] Summarize started
+[INFO] Using Gemini model: gemini-3.6-flash
+[INFO] Target news count: 3
+[INFO] Summarizing clean_news_id=34 title="Caltech Mathathon – first hackathon ever devoted to research level mathematics"
+[INFO] AFC is enabled with max remote calls: 10.
+[WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 400 Bad Request"
+[ERROR] Gemini failed clean_news_id=34 error="400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+[INFO] Summarizing clean_news_id=36 title="[속보]초대 중수청장 최종 후보자에 보완수사권 폐지 공개 반대했던 ‘검찰 출신’ 김지용 변호사 - 경향신문"
+[INFO] AFC is enabled with max remote calls: 10.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 400 Bad Request"
+[ERROR] Gemini failed clean_news_id=36 error="400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+[INFO] Summarizing clean_news_id=37 title="“강신철, 장남 양지마을 상가 은폐…재산내역서 빠져” - 동아일보"
+[INFO] AFC is enabled with max remote calls: 10.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 400 Bad Request"
+[ERROR] Gemini failed clean_news_id=37 error="400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+[INFO] Summarize completed
+[INFO] Summarize started
+[INFO] Using Gemini model: gemini-3.6-flash
+[INFO] Target news count: 3
+[INFO] Summarizing clean_news_id=34 title="Caltech Mathathon – first hackathon ever devoted to research level mathematics"
+[INFO] AFC is enabled with max remote calls: 10.
+[WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+[INFO] [OK] Summary saved clean_news_id=34
+[INFO] Summarizing clean_news_id=36 title="[속보]초대 중수청장 최종 후보자에 보완수사권 폐지 공개 반대했던 ‘검찰 출신’ 김지용 변호사 - 경향신문"
+[INFO] AFC is enabled with max remote calls: 10.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+[INFO] [OK] Summary saved clean_news_id=36
+[INFO] Summarizing clean_news_id=37 title="“강신철, 장남 양지마을 상가 은폐…재산내역서 빠져” - 동아일보"
+[INFO] AFC is enabled with max remote calls: 10.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+[INFO] [OK] Summary saved clean_news_id=37
+[INFO] Summarize completed
+[INFO] Analyze started
+[INFO] Using Gemini model: gemini-3.6-flash
+[INFO] Analyze filters: date_from=1900-01-01, date_to=1900-01-02, category=NO_SUCH_CATEGORY, limit=None
+[INFO] Target news count: 0
+[INFO] No news to analyze.
+[INFO] Analyze started
+[INFO] Using Gemini model: gemini-3.6-flash
+[INFO] Analyze filters: date_from=None, date_to=None, category=None, limit=10
+[INFO] Target news count: 10
+[INFO] AFC is enabled with max remote calls: 10.
+[WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+[INFO] Analyze completed: analysis_id=1
+[INFO] Analyze started
+[INFO] Using Gemini model: gemini-3.6-flash
+[INFO] Analyze filters: date_from=2025-01-01, date_to=2025-12-31, category=IT, limit=None
+[INFO] Target news count: 0
+[INFO] No news to analyze.
+[WARNING] mkdir -p failed for path C:\Users\ydkim\AppData\Local\matplotlib: [WinError 5] 액세스가 거부되었습니다: 'C:\\Users\\ydkim\\AppData\\Local\\matplotlib'
+[WARNING] Matplotlib created a temporary cache directory at C:\Users\ydkim\AppData\Local\Temp\matplotlib-gl71_0sj because there was an issue with the default path ({configdir}); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[INFO] generated new fontManager
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_143941.png
+[INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_143941.png
+[INFO] generated new fontManager
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144005.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144005.png
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144048.png
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144118.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144118.png
+[INFO] Report generation started: format=md, top_n=5
+[INFO] Report generation started: format=txt, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144704.png
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144704.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144704.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_144705.txt
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144704.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_144705.md
+[INFO] Report generation started: format=txt, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144721_191273.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144721_296831.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_144721_435616.txt
+[INFO] Report generation started: format=md, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144728_383365.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144728_473357.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_144728_578968.md
+[INFO] Report generation started: format=md, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144743_759419.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144743_885548.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_144744_008986.md
+[INFO] Report generation started: format=txt, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_144751_322256.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_144751_443524.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_144751_555888.txt
+[INFO] Report generation started: format=md, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_145546_078937.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_145546_171031.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_145546_336452.md
+[INFO] Report generation started: format=txt, top_n=5
+[INFO] Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260908_145551_637814.png
+[INFO] Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260908_145551_759532.png
+[INFO] Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260908_145551_867342.txt
+[INFO] Export started: table=clean_news, format=csv
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260908_153319_629377.csv, rows=30
+[INFO] Export started: table=summaries, format=json
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_summaries_20260908_153324_580503.json, rows=3
+[INFO] Export started: table=analyses, format=json
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_analyses_20260908_153344_085646.json, rows=1
+[INFO] Export started: table=clean_news, format=csv
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260909_002849_392522.csv, rows=30
+[INFO] Export started: table=clean_news, format=csv
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260909_002919_863650.csv, rows=30
+[INFO] Export started: table=clean_news, format=json
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260909_002949_685439.json, rows=30
+[INFO] Export started: table=clean_news, format=csv
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260909_003648_581503.csv, rows=30
+[INFO] Export started: table=clean_news, format=json
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260909_003725_033541.json, rows=30
+[INFO] Export started: table=clean_news, format=csv
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260909_011659_866639.csv, rows=30
+[INFO] Export started: table=summaries, format=json
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_summaries_20260909_011704_177929.json, rows=3
+[INFO] Export started: table=analyses, format=json
+[INFO] Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_analyses_20260909_011710_475736.json, rows=1
+2026-09-10 03:23:40,344 [INFO] __main__ - Application started
+2026-09-10 03:23:40,355 [INFO] app.cli - init-db command started
+2026-09-10 03:23:40,361 [INFO] app.cli - init-db command completed
+2026-09-10 03:23:40,362 [INFO] __main__ - Application finished
+2026-09-10 03:23:53,883 [INFO] __main__ - Application started
+2026-09-10 03:23:53,894 [INFO] __main__ - Application finished
+2026-09-10 03:23:53,913 [INFO] __main__ - Application started
+2026-09-10 03:23:53,924 [INFO] __main__ - Application finished
+2026-09-10 03:23:53,927 [INFO] __main__ - Application started
+2026-09-10 03:23:53,940 [INFO] __main__ - Application finished
+2026-09-10 03:23:53,957 [INFO] __main__ - Application started
+2026-09-10 03:23:53,977 [INFO] __main__ - Application finished
+2026-09-10 03:23:54,000 [INFO] __main__ - Application started
+2026-09-10 03:23:54,010 [INFO] app.cli - show command started: id=999999
+2026-09-10 03:23:54,013 [INFO] app.cli - show command completed: id=999999, found=false
+2026-09-10 03:23:54,013 [INFO] __main__ - Application finished
+2026-09-10 03:23:54,021 [INFO] __main__ - Application started
+2026-09-10 03:23:54,028 [INFO] app.cli - list command started: category=None, date_from=None, date_to=None, keyword=None, page=1, page_size=5
+2026-09-10 03:23:54,035 [INFO] app.cli - list command completed: total_count=30, returned=5
+2026-09-10 03:23:54,035 [INFO] __main__ - Application finished
+2026-09-10 03:24:01,133 [INFO] __main__ - Application started
+2026-09-10 03:24:01,141 [INFO] __main__ - Application finished
+2026-09-10 03:24:01,149 [INFO] __main__ - Application started
+2026-09-10 03:24:01,156 [INFO] __main__ - Application finished
+2026-09-10 03:24:01,185 [INFO] __main__ - Application started
+2026-09-10 03:24:01,192 [INFO] __main__ - Application finished
+2026-09-10 03:24:18,061 [INFO] __main__ - Application started
+2026-09-10 03:24:18,068 [INFO] __main__ - Application started
+2026-09-10 03:24:18,069 [INFO] app.cli - report command started: format=md, top_n=5
+2026-09-10 03:24:18,069 [INFO] app.reporter - Report generation started: format=md, top_n=5
+2026-09-10 03:24:18,074 [INFO] app.cli - export command started: table=clean_news, format=csv, status=all, summarized=False
+2026-09-10 03:24:18,074 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 03:24:18,083 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_032418_076889.csv, rows=30
+2026-09-10 03:24:18,083 [INFO] app.cli - export command completed
+2026-09-10 03:24:18,083 [INFO] __main__ - Application finished
+2026-09-10 03:24:18,113 [INFO] __main__ - Application started
+2026-09-10 03:24:18,119 [INFO] app.cli - clean command started: policy=skip, limit=3
+2026-09-10 03:24:18,120 [INFO] app.cleaner - News cleaning started: policy=skip, limit=3
+2026-09-10 03:24:18,122 [INFO] app.cleaner - Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+2026-09-10 03:24:18,123 [INFO] app.cleaner - Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+2026-09-10 03:24:18,124 [INFO] app.cleaner - Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+2026-09-10 03:24:18,124 [INFO] app.cleaner - News cleaning completed: inserted=0, updated=0, skipped=3, failed=0
+2026-09-10 03:24:18,124 [INFO] app.cli - clean command completed: {'inserted': 0, 'updated': 0, 'skipped': 3, 'failed': 0}
+2026-09-10 03:24:18,124 [INFO] __main__ - Application finished
+2026-09-10 03:24:19,894 [INFO] app.visualizer - Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260910_032419_738107.png
+2026-09-10 03:24:20,008 [INFO] app.visualizer - Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260910_032419_907227.png
+2026-09-10 03:24:20,010 [INFO] app.reporter - Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260910_032420_009911.md
+2026-09-10 03:24:20,010 [INFO] app.cli - report command completed
+2026-09-10 03:24:20,010 [INFO] __main__ - Application finished
+2026-09-10 03:24:23,721 [INFO] __main__ - Application started
+2026-09-10 03:24:23,726 [INFO] app.cli - fetch command started: method=rss, source=None, limit=3, category=None
+2026-09-10 03:24:23,934 [INFO] app.fetcher - RSS news collection started: source=rss, limit=3
+2026-09-10 03:24:23,987 [ERROR] app.fetcher - RSS parse failed: url=https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko error=<urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>
+2026-09-10 03:24:23,989 [INFO] app.fetcher - RSS news collection completed: fetched=0, saved=0, skipped=0, failed=1
+2026-09-10 03:24:23,989 [INFO] app.cli - fetch command completed: {'fetched': 0, 'saved': 0, 'skipped': 0, 'failed': 1}
+2026-09-10 03:24:23,989 [INFO] __main__ - Application finished
+2026-09-10 03:43:27,229 [INFO] __main__ - Application started
+2026-09-10 03:43:27,236 [INFO] app.cli - fetch command started: method=rss, source=None, limit=3, category=None
+2026-09-10 03:43:27,286 [INFO] app.fetcher - RSS news collection started: source=rss, limit=3
+2026-09-10 03:43:27,659 [INFO] app.fetcher - RSS news collection completed: fetched=3, saved=3, skipped=0, failed=0
+2026-09-10 03:43:27,659 [INFO] app.cli - fetch command completed: {'fetched': 3, 'saved': 3, 'skipped': 0, 'failed': 0}
+2026-09-10 03:43:27,659 [INFO] __main__ - Application finished
+2026-09-10 03:47:27,678 [INFO] __main__ - Application started
+2026-09-10 03:47:27,687 [INFO] __main__ - Application started
+2026-09-10 03:47:27,690 [INFO] __main__ - Application finished
+2026-09-10 03:47:27,697 [INFO] __main__ - Application finished
+2026-09-10 03:47:27,716 [INFO] __main__ - Application started
+2026-09-10 03:47:27,731 [INFO] __main__ - Application finished
+2026-09-10 03:47:27,747 [INFO] __main__ - Application started
+2026-09-10 03:47:27,758 [INFO] __main__ - Application finished
+2026-09-10 03:47:27,759 [INFO] __main__ - Application started
+2026-09-10 03:47:27,769 [INFO] __main__ - Application finished
+2026-09-10 03:47:33,987 [INFO] __main__ - Application started
+2026-09-10 03:47:33,996 [INFO] __main__ - Application finished
+2026-09-10 03:47:34,033 [INFO] __main__ - Application started
+2026-09-10 03:47:34,041 [INFO] __main__ - Application finished
+2026-09-10 03:47:34,055 [INFO] __main__ - Application started
+2026-09-10 03:47:34,064 [INFO] __main__ - Application finished
+2026-09-10 03:47:34,075 [INFO] __main__ - Application started
+2026-09-10 03:47:34,084 [INFO] __main__ - Application finished
+2026-09-10 05:10:27,683 [INFO] __main__ - Application started
+2026-09-10 05:10:27,691 [INFO] __main__ - Application finished
+2026-09-10 05:10:27,693 [INFO] __main__ - Application started
+2026-09-10 05:10:27,702 [INFO] __main__ - Application finished
+2026-09-10 05:10:27,751 [INFO] __main__ - Application started
+2026-09-10 05:10:27,758 [INFO] __main__ - Application finished
+2026-09-10 05:51:21,990 [INFO] __main__ - Application started
+2026-09-10 05:51:21,998 [INFO] __main__ - Application finished
+2026-09-10 05:51:55,305 [INFO] __main__ - Application started
+2026-09-10 05:51:55,312 [INFO] __main__ - Application finished
+2026-09-10 05:53:01,065 [INFO] __main__ - Application started
+2026-09-10 05:53:01,076 [INFO] app.cli - export command started: table=clean_news, format=excel, status=summarized, summarized=False
+2026-09-10 05:53:01,076 [INFO] app.exporter - Export started: table=clean_news, format=excel
+2026-09-10 05:53:01,093 [INFO] __main__ - Application started
+2026-09-10 05:53:01,096 [INFO] __main__ - Application started
+2026-09-10 05:53:01,101 [INFO] app.cli - export command started: table=clean_news, format=jsonl, status=summarized, summarized=False
+2026-09-10 05:53:01,102 [INFO] app.exporter - Export started: table=clean_news, format=jsonl
+2026-09-10 05:53:01,106 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_055301_105366.jsonl, rows=3
+2026-09-10 05:53:01,106 [INFO] app.cli - export command completed
+2026-09-10 05:53:01,107 [INFO] __main__ - Application finished
+2026-09-10 05:53:01,109 [INFO] app.cli - export command started: table=clean_news, format=csv, status=summarized, summarized=False
+2026-09-10 05:53:01,109 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 05:53:01,116 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_055301_114365.csv, rows=3
+2026-09-10 05:53:01,116 [INFO] app.cli - export command completed
+2026-09-10 05:53:01,116 [INFO] __main__ - Application finished
+2026-09-10 05:53:01,143 [INFO] __main__ - Application started
+2026-09-10 05:53:01,154 [INFO] app.cli - export command started: table=clean_news, format=csv, status=all, summarized=False
+2026-09-10 05:53:01,154 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 05:53:01,159 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_055301_157284.csv, rows=30
+2026-09-10 05:53:01,159 [INFO] app.cli - export command completed
+2026-09-10 05:53:01,159 [INFO] __main__ - Application finished
+2026-09-10 05:53:02,551 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_055301_080845.xlsx, rows=3
+2026-09-10 05:53:02,551 [INFO] app.cli - export command completed
+2026-09-10 05:53:02,551 [INFO] __main__ - Application finished
+2026-09-10 05:53:08,283 [INFO] __main__ - Application started
+2026-09-10 05:53:08,292 [INFO] app.cli - export command started: table=summaries, format=json, status=all, summarized=False
+2026-09-10 05:53:08,292 [INFO] app.exporter - Export started: table=summaries, format=json
+2026-09-10 05:53:08,297 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_summaries_20260910_055308_296130.json, rows=3
+2026-09-10 05:53:08,298 [INFO] app.cli - export command completed
+2026-09-10 05:53:08,298 [INFO] __main__ - Application finished
+2026-09-10 05:53:08,319 [INFO] __main__ - Application started
+2026-09-10 05:53:08,339 [INFO] __main__ - Application started
+2026-09-10 05:53:08,353 [INFO] app.cli - export command started: table=clean_news, format=csv, status=all, summarized=False
+2026-09-10 05:53:08,353 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 05:53:08,355 [INFO] app.cli - export command started: table=analyses, format=json, status=all, summarized=False
+2026-09-10 05:53:08,355 [INFO] app.exporter - Export started: table=analyses, format=json
+2026-09-10 05:53:08,359 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_055308_357639.csv, rows=30
+2026-09-10 05:53:08,359 [INFO] app.cli - export command completed
+2026-09-10 05:53:08,359 [INFO] __main__ - Application finished
+2026-09-10 05:53:08,359 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_analyses_20260910_055308_358636.json, rows=1
+2026-09-10 05:53:08,360 [INFO] app.cli - export command completed
+2026-09-10 05:53:08,360 [INFO] __main__ - Application finished
+2026-09-10 05:54:01,161 [INFO] __main__ - Application started
+2026-09-10 05:54:01,169 [INFO] __main__ - Application finished
+2026-09-10 05:57:48,251 [INFO] __main__ - Application started
+2026-09-10 05:57:48,257 [INFO] __main__ - Application finished
+2026-09-10 05:58:03,457 [INFO] __main__ - Application started
+2026-09-10 05:58:03,462 [INFO] app.cli - fetch command started: method=rss, source=None, limit=10, category=None
+2026-09-10 05:58:03,508 [INFO] app.fetcher - RSS news collection started: source=rss, limit=10
+2026-09-10 05:58:03,553 [ERROR] app.fetcher - RSS parse failed: url=https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko error=<urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>
+2026-09-10 05:58:03,555 [INFO] app.fetcher - RSS news collection completed: fetched=0, saved=0, skipped=0, failed=1
+2026-09-10 05:58:03,555 [INFO] app.cli - fetch command completed: {'fetched': 0, 'saved': 0, 'skipped': 0, 'failed': 1}
+2026-09-10 05:58:03,555 [INFO] __main__ - Application finished
+2026-09-10 05:58:35,371 [INFO] __main__ - Application started
+2026-09-10 05:58:35,376 [INFO] app.cli - fetch command started: method=rss, source=None, limit=10, category=None
+2026-09-10 05:58:35,420 [INFO] app.fetcher - RSS news collection started: source=rss, limit=10
+2026-09-10 05:58:35,780 [INFO] app.fetcher - RSS news collection completed: fetched=10, saved=10, skipped=0, failed=0
+2026-09-10 05:58:35,780 [INFO] app.cli - fetch command completed: {'fetched': 10, 'saved': 10, 'skipped': 0, 'failed': 0}
+2026-09-10 05:58:35,780 [INFO] __main__ - Application finished
+2026-09-10 05:58:43,996 [INFO] __main__ - Application started
+2026-09-10 05:58:44,002 [INFO] app.cli - fetch command started: method=crawl, source=None, limit=5, category=None
+2026-09-10 05:58:44,378 [INFO] app.crawler - Crawl news collection started: source=https://news.ycombinator.com/news, limit=5
+2026-09-10 05:58:45,110 [WARNING] app.crawler - Crawled content fallback applied: url=https://www.apple.com/iphone-duo/
+2026-09-10 05:58:46,125 [WARNING] app.crawler - Crawled content fallback applied: url=https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/
+2026-09-10 05:58:47,142 [WARNING] app.crawler - Crawled content fallback applied: url=https://tailwindcss.com/blog/tailwind-is-joining-shopify
+2026-09-10 05:58:48,155 [WARNING] app.crawler - Crawled content fallback applied: url=https://tautology.town/2026/06/01/card-networks.html
+2026-09-10 05:58:49,165 [WARNING] app.crawler - Crawled content fallback applied: url=https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/
+2026-09-10 05:58:50,184 [INFO] app.crawler - Crawl news collection completed: fetched=5, saved=5, skipped=0, failed=0
+2026-09-10 05:58:50,185 [INFO] app.cli - fetch command completed: {'fetched': 5, 'saved': 5, 'skipped': 0, 'failed': 0}
+2026-09-10 05:58:50,185 [INFO] __main__ - Application finished
+2026-09-10 05:58:54,785 [INFO] __main__ - Application started
+2026-09-10 05:58:54,790 [INFO] app.cli - clean command started: policy=upsert, limit=None
+2026-09-10 05:58:54,791 [INFO] app.cleaner - News cleaning started: policy=upsert, limit=None
+2026-09-10 05:58:54,799 [INFO] __main__ - Application started
+2026-09-10 05:58:54,933 [INFO] app.cli - clean command started: policy=skip, limit=None
+2026-09-10 05:58:54,933 [INFO] app.cleaner - News cleaning started: policy=skip, limit=None
+2026-09-10 05:58:55,010 [INFO] app.cleaner - Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+2026-09-10 05:58:55,070 [INFO] app.cleaner - Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+2026-09-10 05:58:55,086 [INFO] app.cleaner - Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+2026-09-10 05:58:55,149 [INFO] app.cleaner - Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+2026-09-10 05:58:55,182 [INFO] app.cleaner - News cleaning completed: inserted=15, updated=30, skipped=0, failed=0
+2026-09-10 05:58:55,182 [INFO] app.cli - clean command completed: {'inserted': 15, 'updated': 30, 'skipped': 0, 'failed': 0}
+2026-09-10 05:58:55,182 [INFO] __main__ - Application finished
+2026-09-10 05:58:55,196 [INFO] app.cleaner - Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+2026-09-10 05:58:55,200 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+2026-09-10 05:58:55,201 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+2026-09-10 05:58:55,202 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+2026-09-10 05:58:55,204 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5MMFRsS0ZTS2JTSm1qc21WZDgxQUNZTHd4Wmx5X0Vnc3hYTTZCWVpyM0tjZWhNSzlERzdZQXpXdDdsdnF6NXJRODhtUkllOVk5S1BYZ2dURExEMG82OXNLcnlFUHQ0cFR3VW1MbUNIeFFPQQ?oc=5
+2026-09-10 05:58:55,206 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE50NWQ3d0FBZlI5TGVIaHBXbUZyMW1PRXpaSjNLaG5PU1BRWVU3SlJfaHgzRWp2T0d2SXVWSkNFMm92T1VKU21ERFFjZjhnYUk4VVozNzA3VDM5MjdybGtzX18tdDhudWktY2ktNmZEclE2RHVK?oc=5
+2026-09-10 05:58:55,208 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRHBEbGxIQjBuWVVDX2hGUFRRS0pKWGhYalJoQ1RMeG1zaWVBSl9OY0wyTkpQaHBXYmloV3ZSUTZnd2JTdm1tX1pnWU9vdzQ3UFQ3VnpCT1pCSjQ?oc=5
+2026-09-10 05:58:55,210 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQVJnM0pSaXlaclNpLUQ5cHZDSWotbEN1SDMxNjlJS1kySnFBYzVBaUIyWW1USnNLc1VGUENwNVNRSTdPSDlFNk44bTkyUlpMQ280X2lJX1VMMVRQdHVHdWFWTlR1LVdMa0h4dFFyUjkyT0My?oc=5
+2026-09-10 05:58:55,212 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySmMtekUtcFU1NkJEYmRneGUtaGVUZldOcFNiOUFuS3FwY013R0lfT29FYTlvWU9NYWUxbzJBTktxcXl3bi1BMTRqa3pVdGJ3R0dxN2NqOGxGZE3SAWBBVV95cUxOUFBWRWF2V2JiSzF1VDRfUDNISFU2eWs1Tjd0R083VDB6R0hTbmVhZFRMSENOaS05b0xQVEZ1ZWxXYjE4b0liZVJIMFZaSlY1d1NQeXJxNjg5MlZxb0E3SGo?oc=5
+2026-09-10 05:58:55,214 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFA4ZGhLRl9FV1dmNkd4NFp6UTJNWW4tSmI5UDdvY3NvSmRQLVFCbnd4YlVZSUhsNm9LQlVqeEQzOTMxQjF1MWhFRjBmV2VsVjFrRV9MRDF0djFEQ1FhYjVCSGRBb2tDRGZMQ3NzbWcwNGRPMWV3UHVB0gFmQVVfeXFMTlVQOVNNYlBLaWpfTWcxaFpfc0liU2wta0I4dVkwUnB1YzFkbDVydkhQbWhzZGl4TDRBQlZUTWJxcjZncmhCWnN1QkFqMF9NNnNVQ294NlZpTkNUd05zLXl4blpyS1Rn?oc=5
+2026-09-10 05:58:55,216 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDd3Nk54OG1JZHV0WlFjdEYwRzdRVkE1cVpuTEZiSVE3OFI3WENMVjNwWmJGTllVSVFPb3M4X1ZsTVRscjhRdDNXT2MtOVZ0NmRwX2gwcVNLeHJ4bXBGZDVMSVVYZzRZcXY0REZTRmZHTWRuTHI3bk9xcVpfS2xiZ0FB?oc=5
+2026-09-10 05:58:55,219 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNWdoaDRsbGoyS29IS0xTVXhjYlFpM0NzTUtjbGJGMEstTXZLMThFUUNrS19GcVVYanZybVlVcFNMbXhvb1N6TGFkLV9fT2VfWi0zbkxFRnIxQ1JJZGNRU3ZVX2xZMUk?oc=5
+2026-09-10 05:58:55,221 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uMGJlYjNYWlFpT1FWVFlpWC0yTmhpbHR0bGkyaE1rSTRDZlpRZHJPWDB0VWVVNlY0bjFWUUw3eEpPcFlSMkR1d2hrQmJ2X2xxblM3VEpvMUdEd9IBX0FVX3lxTE5QWHp1TXdjWmczSXkyN3pFR0djUlh3RGIyX1FINDRBOFhMTXNmZlFNelJSV0ZJYnBPWWFwd1E2R0M0c1NVQ0g0NTVPSVliaFVfYlFNdFFPaHh5WWl5c3BN?oc=5
+2026-09-10 05:58:55,225 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxNakNudnBULXdHUTczVEhZYk04SC1JNzgtV2p3bXlxMFZXNGktTUZFb2d6NWc0cFBqcDBYYVhLUU1OQmppTjFYb1ZvM2ViTFFLcGRLNER5amJhczNyUWV0NDZJRXYtTlE3b09ybFZlaFNjUy1LSkdZX0dCZjM1TTUzcVFzQVhWQlZtSVZ1Yk1sVkE?oc=5
+2026-09-10 05:58:55,227 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE5oUEMwT3ZvNFNrcWdfVDhCWkdUY2IwVllhUEZsT1F2amp0VEt5UGhQTGx5MnE5NExHNmFHaDlSdXdJREVXZnNEZjVSV1FPQmRsc2JrbG8tc29YMTBrUlpva3N5cGNhZmZIOHk0?oc=5
+2026-09-10 05:58:55,228 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE0ycXU3Zm9zTTkyNVFWU01WRUlTd09DclhFSXpYeERkMzlRdmZHWTB5U253dm5WLVN3OS02dHotLUhEUWstcW4yb3lmUVBsZjFYd3VFWkNfV3VfcnhQMTJlVFpMcFk4U2Z4eTFqTjdwMkgwUnV6?oc=5
+2026-09-10 05:58:55,231 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMibkFVX3lxTFBLbk1NVUlBNWJfMXBJdTJQSGhobVY4RzdZNk5jZjJxeExIOUtEd3VSdEk3MWtpY0d5MmdnQmxiMWFoeERLYm5EWGJPajRnbXd3cDQxaFhzQXVYdk5NNjFrdzlSSlZ1UG8xMjVrMDZR?oc=5
+2026-09-10 05:58:55,234 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nQU1MSWI5c1Z0cEVvWExpTTJzTnNJMHoxNGxsOTF6WkVIQzUtWHl3VE5rdDRHSzVJU0RpSXdmTzFpdEJmS2pRbkNBUkxrU25fZjVpTDVDM2xyOWc?oc=5
+2026-09-10 05:58:55,237 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5OUjhDSVRRbUFBbTRRVGI0WWRDY2xmdzNDaHlta05mbE53YWhWbmZMa0Q4STY3MGZiWE1qei1heGNNbHVDZTFXRGdpSHdBM1h6QUV0WmxFd295T2JDQmxTUFk4QVJDQjd1TWZUSnpJV3lOdw?oc=5
+2026-09-10 05:58:55,240 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxQa2VLMDJCVzBiNERNMXZXajZnUDJTZFREX2Q4UjgtQmJBNXdtTHBaZ3JRTDMyS01CVWJBTUVSN2dUOHJocXFEMkgxRW9RaE1YeE9JSlU0bmV4OHd0RkFQT3lXQ3hPZ2dzNlJUYUY2MHdQTzU3OXVGZlBDR3BNQ0hOVHRjejNya0pvZzlGbkVNTTE?oc=5
+2026-09-10 05:58:55,241 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tUmI1WS1QNndydV9KNUNvVjQ5TURaN3BFTmM0VWFkaUpFVERZcE1ZSW90a2ZELUlScXF2bFVGalJSSGZFMWlCSFZxc3V0dFJIdVNBeGN0R3VkUlE?oc=5
+2026-09-10 05:58:55,243 [INFO] app.cleaner - Duplicate clean news skipped: url=https://jellyfin.org/posts/jellyfin-release-12.0/
+2026-09-10 05:58:55,244 [INFO] app.cleaner - Duplicate clean news skipped: url=https://mcpherrin.ca/2026/09/07/rsa.html
+2026-09-10 05:58:55,247 [INFO] app.cleaner - Duplicate clean news skipped: url=https://d2lang.com/blog/tala-is-open-source/
+2026-09-10 05:58:55,249 [INFO] app.cleaner - Duplicate clean news skipped: url=https://lax-skyline.parcelscope.net/
+2026-09-10 05:58:55,251 [INFO] app.cleaner - Duplicate clean news skipped: url=https://github.com/Sadpainy/Stuxnet
+2026-09-10 05:58:55,253 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE5EU1dzZUhQWGpZOVRpdHprVG1XSjhWTDl4TTNraGJhTmNtdUNSbTdpc0pHMWRUOEVKUmhjMDY4WU1uYWtxcTFQamRGZVBCcHN4UXVwQWEteVlEMzRHem1MMDRHWGZnMVJwcG9nYk5oUWpoUThm?oc=5
+2026-09-10 05:58:55,254 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Cb040dHhQa3NwUlJNWWpkVmNuRkpWS3dyLWQwX1ZGTlN5bUFPYU5TSllXMks4ZnNWMmZuZ0RtdDh4WDJYb1E2NWdXcmdXR2o2NXZHN3R6R2w4Zw?oc=5
+2026-09-10 05:58:55,255 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rQ0k1ZTE3ZVVmRzg0SDctOG1NSXlrY0tvLWNTeGRaQjhQR3BjWXlwSXlnbGpqTnJ2RWlTVkZMMWFxU2V0SVRmaTVnU01QdG1YUkk4Zlp3Yks0d9IBX0FVX3lxTE1TUUs1ck9UNDlUcUswd2NTcGRJSjJtdU9KcnRmeXUzaWRWVlFiOWNyaWt0WVUyalpJWm1uUUZNUkFGWi16b0VUNEpyNG9JTU1IRnF0NGJPQUlyQUk5ZnN3?oc=5
+2026-09-10 05:58:55,256 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE5YeTZXeV9YaGU1bzlHQWZJVlhZbkpjRXZjS2R5blZHaC1TbHN2Q3JnUzJPQVJVSFlPRWFRa3YtcVlwRjI3Q3FpdEJzZHROT2NfZUZSQzR3WXJnNWVqMFI0MF9hZkc1X2lMMXZaOEY5U0ZNRkxH0gF0QVVfeXFMTzhRV1hzRTVURXhmYW1aY1A5dzMyUUowMmNjSTZoUk9BZFE3UGNmd1Z6TGZ2LThWejFLajZBZ1otLW1SSXE1SjZfRWw3SVJYRmlBWmJjdDFGXzNuWURKVVEzbjdUVC16U2hBRENJT1ZZZXY5SFc?oc=5
+2026-09-10 05:58:55,258 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUYVNiT1FSQndrNU04YU85SzVqX2hrbzIxSzFwazJaVlllRFV1R3FfalhOa1BzbExaSDlYanJ4TDhWd3BSVGxBd2huNGRlNVdVelN6MWVwZzdRUzZpdWc?oc=5
+2026-09-10 05:58:55,258 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrd0Z0TnBDRGZxeG45TFNWWlJWUXI2WDRjSWxxc2FkaUNQdHI4S2hhOVdjeWNBbFdTbzJ3YlRoLTVuck45RW9OMV92dWJ2YXQ3TmRoZDlHSWFkdDg?oc=5
+2026-09-10 05:58:55,260 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBpU2ljbkpiMGQyQVlpNHNvMG1vU1N2ZVJjeDVDRlFwQndKZndGbFhqZFZneC1URHBvN2dyWXkyT0JjeXhXNGQyY1pVcDZQTWpnQlh5T2RJbFRadXdZNzRNek16V1N0T0MwR0JWSUQtX01rSTE2N0w00gF3QVVfeXFMUEtlRFZsMFdhOG9GNDBXLXhVRlhfVWphQ0VJSlFPbWp5X2l6bzMxbnNSQVJIX2lUR09TRHdTTlc0Y3BIbExOaDZhcnRfaFF4a19XNWFUQVhWRm1ZN2FId3BVQ1p4WjY1LXk5ZnpWb295cjJZcWJ6VDQ?oc=5
+2026-09-10 05:58:55,261 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UWHV5QTNpelV1T3VFSmhua0NIYUtmYzBmLWpVd2FJZUlxenQ5MU94dVhEZU93cW5LcGs1VFFWa1I5V1VNRlJ5MzRGbWEtZWpYbmFFcTRLVHRoQQ?oc=5
+2026-09-10 05:58:55,262 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFAwWHVVcHl6ZFZnSnFBVFpFNkFIakV1NUduQ1BRSkk4c1ZxQW5GVWtsR25GRk9sRWdtVEJpcC1PSnNtQzZhaU94bU1saXY4U09VeTZ5SmFtaEswMlJBUy1xc1JHaEVjWGFUOFZyYjBPOFNOMzI0aWQw0gF3QVVfeXFMTmx1elpZUGthaU14MVBaM1lFa2NSN3hESHBsVWQ5bnhWU2RRRlVtVnNYT1EyZUdWX2NEMHdYM29WVzRUdTR5OGZrUW0yVGtoSm9NTzN0a0RNZmN1Y3RDTjRMMUo5UFlKNmlmUzNQaklTZ24zQkVqQ00?oc=5
+2026-09-10 05:58:55,264 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMibkFVX3lxTFAzWG8tLWdYRG9weUZTbFh5cXNyczk2eDBRc3RrMjBMTWdXMVBJME11d1JyamxEYWtuLUo5VHVFNF9JaWRlbXNOMzNHQnROckNfMnJWcjZrTGhDOWhqTDd6a29VS3hSalJPWWpOeFZ3?oc=5
+2026-09-10 05:58:55,266 [INFO] app.cleaner - Duplicate clean news skipped: url=https://www.apple.com/iphone-duo/
+2026-09-10 05:58:55,267 [INFO] app.cleaner - Duplicate clean news skipped: url=https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/
+2026-09-10 05:58:55,268 [INFO] app.cleaner - Duplicate clean news skipped: url=https://tailwindcss.com/blog/tailwind-is-joining-shopify
+2026-09-10 05:58:55,269 [INFO] app.cleaner - Duplicate clean news skipped: url=https://tautology.town/2026/06/01/card-networks.html
+2026-09-10 05:58:55,270 [INFO] app.cleaner - Duplicate clean news skipped: url=https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/
+2026-09-10 05:58:55,270 [INFO] app.cleaner - News cleaning completed: inserted=0, updated=0, skipped=45, failed=0
+2026-09-10 05:58:55,270 [INFO] app.cli - clean command completed: {'inserted': 0, 'updated': 0, 'skipped': 45, 'failed': 0}
+2026-09-10 05:58:55,270 [INFO] __main__ - Application finished
+2026-09-10 05:58:59,184 [INFO] __main__ - Application started
+2026-09-10 05:58:59,190 [INFO] app.cli - summarize command started: id=None, all=False, unsummarized=True, limit=3
+2026-09-10 05:58:59,192 [INFO] app.summarizer - Summarize started
+2026-09-10 05:58:59,192 [INFO] app.summarizer - Using Gemini model: gemini-3.6-flash
+2026-09-10 05:58:59,192 [INFO] app.summarizer - Target news count: 3
+2026-09-10 05:59:00,736 [INFO] app.summarizer - [SKIP] Short content clean_news_id=31 content_length=21
+2026-09-10 05:59:00,742 [INFO] app.summarizer - [SKIP] Short content clean_news_id=32 content_length=5
+2026-09-10 05:59:00,748 [INFO] app.summarizer - [SKIP] Short content clean_news_id=33 content_length=24
+2026-09-10 05:59:00,749 [INFO] app.summarizer - Summarize completed
+2026-09-10 05:59:00,750 [INFO] app.cli - summarize command completed: {'created_or_updated': 0, 'skipped_short_content': 3, 'failed': 0}
+2026-09-10 05:59:00,750 [INFO] __main__ - Application finished
+2026-09-10 05:59:03,577 [INFO] __main__ - Application started
+2026-09-10 05:59:03,583 [INFO] app.cli - summarize command started: id=1, all=False, unsummarized=False, limit=None
+2026-09-10 05:59:03,585 [INFO] app.summarizer - Summarize started
+2026-09-10 05:59:03,585 [INFO] app.summarizer - Using Gemini model: gemini-3.6-flash
+2026-09-10 05:59:03,585 [INFO] app.summarizer - Target news count: 0
+2026-09-10 05:59:03,585 [INFO] app.summarizer - No news to summarize.
+2026-09-10 05:59:03,585 [INFO] app.cli - summarize command completed: {'created_or_updated': 0, 'skipped_short_content': 0, 'failed': 0}
+2026-09-10 05:59:03,585 [INFO] __main__ - Application finished
+2026-09-10 05:59:11,922 [INFO] __main__ - Application started
+2026-09-10 05:59:11,927 [INFO] app.cli - summarize command started: id=38, all=False, unsummarized=False, limit=None
+2026-09-10 05:59:11,929 [INFO] app.summarizer - Summarize started
+2026-09-10 05:59:11,929 [INFO] app.summarizer - Using Gemini model: gemini-3.6-flash
+2026-09-10 05:59:11,929 [INFO] app.summarizer - Target news count: 1
+2026-09-10 05:59:12,686 [INFO] app.summarizer - Summarizing clean_news_id=38 title="이 대통령, 전도연·김도연과 셀카…“아내가 꼭 찍어오래서” - hani.co.kr"
+2026-09-10 05:59:12,686 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-10 05:59:12,686 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-10 05:59:12,753 [ERROR] app.summarizer - Gemini failed clean_news_id=38 error="[WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다"
+2026-09-10 05:59:12,753 [INFO] app.summarizer - Summarize completed
+2026-09-10 05:59:12,753 [INFO] app.cli - summarize command completed: {'created_or_updated': 0, 'skipped_short_content': 0, 'failed': 1}
+2026-09-10 05:59:12,753 [INFO] __main__ - Application finished
+2026-09-10 06:00:17,572 [INFO] __main__ - Application started
+2026-09-10 06:00:17,577 [INFO] app.cli - summarize command started: id=38, all=False, unsummarized=False, limit=None
+2026-09-10 06:00:17,578 [INFO] app.summarizer - Summarize started
+2026-09-10 06:00:17,578 [INFO] app.summarizer - Using Gemini model: gemini-3.6-flash
+2026-09-10 06:00:17,578 [INFO] app.summarizer - Target news count: 1
+2026-09-10 06:00:18,359 [INFO] app.summarizer - Summarizing clean_news_id=38 title="이 대통령, 전도연·김도연과 셀카…“아내가 꼭 찍어오래서” - hani.co.kr"
+2026-09-10 06:00:18,359 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-10 06:00:18,359 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-10 06:00:26,290 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-10 06:00:26,314 [INFO] app.summarizer - [OK] Summary saved clean_news_id=38
+2026-09-10 06:00:26,315 [INFO] app.summarizer - Summarize completed
+2026-09-10 06:00:26,315 [INFO] app.cli - summarize command completed: {'created_or_updated': 1, 'skipped_short_content': 0, 'failed': 0}
+2026-09-10 06:00:26,315 [INFO] __main__ - Application finished
+2026-09-10 06:01:10,722 [INFO] __main__ - Application started
+2026-09-10 06:01:10,731 [INFO] app.cli - analyze command started: date_from=None, date_to=None, category=None, limit=10
+2026-09-10 06:01:10,732 [INFO] app.analyzer - Analyze started
+2026-09-10 06:01:10,732 [INFO] app.analyzer - Using Gemini model: gemini-3.6-flash
+2026-09-10 06:01:10,732 [INFO] app.analyzer - Analyze filters: date_from=None, date_to=None, category=None, limit=10
+2026-09-10 06:01:10,734 [INFO] app.analyzer - Target news count: 10
+2026-09-10 06:01:10,752 [INFO] __main__ - Application started
+2026-09-10 06:01:10,757 [INFO] app.cli - report command started: format=md, top_n=5
+2026-09-10 06:01:10,758 [INFO] app.reporter - Report generation started: format=md, top_n=5
+2026-09-10 06:01:11,316 [INFO] app.visualizer - Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260910_060111_236666.png
+2026-09-10 06:01:11,437 [INFO] app.visualizer - Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260910_060111_326759.png
+2026-09-10 06:01:11,439 [INFO] app.reporter - Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260910_060111_438143.md
+2026-09-10 06:01:11,439 [INFO] app.cli - report command completed
+2026-09-10 06:01:11,439 [INFO] __main__ - Application finished
+2026-09-10 06:01:11,584 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-10 06:01:11,584 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-10 06:01:11,622 [ERROR] app.analyzer - Gemini analysis failed error="[WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다"
+2026-09-10 06:01:11,623 [INFO] app.cli - analyze command completed: {'analysis_id': None, 'news_count': 10, 'failed': 1}
+2026-09-10 06:01:11,623 [INFO] __main__ - Application finished
+2026-09-10 06:01:25,356 [INFO] __main__ - Application started
+2026-09-10 06:01:25,361 [INFO] app.cli - analyze command started: date_from=None, date_to=None, category=None, limit=10
+2026-09-10 06:01:25,362 [INFO] app.analyzer - Analyze started
+2026-09-10 06:01:25,362 [INFO] app.analyzer - Using Gemini model: gemini-3.6-flash
+2026-09-10 06:01:25,362 [INFO] app.analyzer - Analyze filters: date_from=None, date_to=None, category=None, limit=10
+2026-09-10 06:01:25,363 [INFO] app.analyzer - Target news count: 10
+2026-09-10 06:01:26,164 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-10 06:01:26,164 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-10 06:01:40,212 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-10 06:01:40,234 [INFO] app.analyzer - Analyze completed: analysis_id=2
+2026-09-10 06:01:40,235 [INFO] app.cli - analyze command completed: {'analysis_id': 2, 'news_count': 10, 'failed': 0}
+2026-09-10 06:01:40,235 [INFO] __main__ - Application finished
+2026-09-10 06:01:46,263 [INFO] __main__ - Application started
+2026-09-10 06:01:46,273 [INFO] app.cli - export command started: table=clean_news, format=jsonl, status=summarized, summarized=False
+2026-09-10 06:01:46,273 [INFO] app.exporter - Export started: table=clean_news, format=jsonl
+2026-09-10 06:01:46,278 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_060146_276161.jsonl, rows=4
+2026-09-10 06:01:46,278 [INFO] app.cli - export command completed
+2026-09-10 06:01:46,278 [INFO] __main__ - Application finished
+2026-09-10 06:01:46,279 [INFO] __main__ - Application started
+2026-09-10 06:01:46,290 [INFO] app.cli - export command started: table=clean_news, format=csv, status=summarized, summarized=False
+2026-09-10 06:01:46,290 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 06:01:46,295 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_060146_293678.csv, rows=4
+2026-09-10 06:01:46,295 [INFO] app.cli - export command completed
+2026-09-10 06:01:46,295 [INFO] __main__ - Application finished
+2026-09-10 06:01:46,302 [INFO] __main__ - Application started
+2026-09-10 06:01:46,313 [INFO] app.cli - report command started: format=txt, top_n=5
+2026-09-10 06:01:46,313 [INFO] app.reporter - Report generation started: format=txt, top_n=5
+2026-09-10 06:01:46,317 [INFO] __main__ - Application started
+2026-09-10 06:01:46,325 [INFO] app.cli - export command started: table=clean_news, format=excel, status=summarized, summarized=False
+2026-09-10 06:01:46,325 [INFO] app.exporter - Export started: table=clean_news, format=excel
+2026-09-10 06:01:46,330 [INFO] __main__ - Application started
+2026-09-10 06:01:46,337 [INFO] app.cli - export command started: table=clean_news, format=csv, status=all, summarized=False
+2026-09-10 06:01:46,337 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 06:01:46,343 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_060146_341051.csv, rows=45
+2026-09-10 06:01:46,343 [INFO] app.cli - export command completed
+2026-09-10 06:01:46,343 [INFO] __main__ - Application finished
+2026-09-10 06:01:46,957 [INFO] app.visualizer - Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260910_060146_864438.png
+2026-09-10 06:01:47,067 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_060146_329050.xlsx, rows=4
+2026-09-10 06:01:47,067 [INFO] app.cli - export command completed
+2026-09-10 06:01:47,068 [INFO] __main__ - Application finished
+2026-09-10 06:01:47,097 [INFO] app.visualizer - Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260910_060146_965136.png
+2026-09-10 06:01:47,100 [INFO] app.reporter - Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260910_060147_098274.txt
+2026-09-10 06:01:47,100 [INFO] app.cli - report command completed
+2026-09-10 06:01:47,100 [INFO] __main__ - Application finished
+2026-09-10 06:01:52,187 [INFO] __main__ - Application started
+2026-09-10 06:01:52,188 [INFO] __main__ - Application started
+2026-09-10 06:01:52,195 [INFO] app.cli - export command started: table=summaries, format=json, status=all, summarized=False
+2026-09-10 06:01:52,195 [INFO] app.exporter - Export started: table=summaries, format=json
+2026-09-10 06:01:52,199 [INFO] app.cli - list command started: category=None, date_from=None, date_to=None, keyword=None, page=1, page_size=10
+2026-09-10 06:01:52,200 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_summaries_20260910_060152_198698.json, rows=4
+2026-09-10 06:01:52,200 [INFO] app.cli - export command completed
+2026-09-10 06:01:52,200 [INFO] __main__ - Application finished
+2026-09-10 06:01:52,204 [INFO] app.cli - list command completed: total_count=45, returned=10
+2026-09-10 06:01:52,204 [INFO] __main__ - Application finished
+2026-09-10 06:01:52,234 [INFO] __main__ - Application started
+2026-09-10 06:01:52,235 [INFO] __main__ - Application started
+2026-09-10 06:01:52,244 [INFO] app.cli - show command started: id=1
+2026-09-10 06:01:52,246 [INFO] app.cli - show command completed: id=1, found=false
+2026-09-10 06:01:52,246 [INFO] __main__ - Application finished
+2026-09-10 06:01:52,252 [INFO] app.cli - export command started: table=analyses, format=json, status=all, summarized=False
+2026-09-10 06:01:52,252 [INFO] app.exporter - Export started: table=analyses, format=json
+2026-09-10 06:01:52,254 [INFO] __main__ - Application started
+2026-09-10 06:01:52,256 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_analyses_20260910_060152_255682.json, rows=2
+2026-09-10 06:01:52,256 [INFO] app.cli - export command completed
+2026-09-10 06:01:52,256 [INFO] __main__ - Application finished
+2026-09-10 06:01:52,260 [INFO] app.cli - export command started: table=clean_news, format=csv, status=all, summarized=False
+2026-09-10 06:01:52,261 [INFO] app.exporter - Export started: table=clean_news, format=csv
+2026-09-10 06:01:52,268 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_060152_264684.csv, rows=45
+2026-09-10 06:01:52,268 [INFO] app.cli - export command completed
+2026-09-10 06:01:52,268 [INFO] __main__ - Application finished
+2026-09-10 06:02:01,091 [INFO] __main__ - Application started
+2026-09-10 06:02:01,099 [INFO] app.cli - show command started: id=38
+2026-09-10 06:02:01,101 [INFO] app.cli - show command completed: id=38, found=true
+2026-09-10 06:02:01,101 [INFO] __main__ - Application finished
+2026-09-10 06:02:21,412 [INFO] __main__ - Application started
+2026-09-10 06:02:21,423 [INFO] app.cli - export command started: table=clean_news, format=json, status=summarized, summarized=False
+2026-09-10 06:02:21,423 [INFO] app.exporter - Export started: table=clean_news, format=json
+2026-09-10 06:02:21,430 [INFO] __main__ - Application started
+2026-09-10 06:02:21,433 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260910_060221_426361.json, rows=4
+2026-09-10 06:02:21,433 [INFO] app.cli - export command completed
+2026-09-10 06:02:21,433 [INFO] __main__ - Application finished
+2026-09-10 06:02:21,440 [INFO] app.cli - analyze command started: date_from=2025-01-01, date_to=2025-12-31, category=IT, limit=None
+2026-09-10 06:02:21,440 [INFO] app.analyzer - Analyze started
+2026-09-10 06:02:21,441 [INFO] app.analyzer - Using Gemini model: gemini-3.6-flash
+2026-09-10 06:02:21,441 [INFO] app.analyzer - Analyze filters: date_from=2025-01-01, date_to=2025-12-31, category=IT, limit=None
+2026-09-10 06:02:21,443 [INFO] app.analyzer - Target news count: 0
+2026-09-10 06:02:21,443 [INFO] app.analyzer - No news to analyze.
+2026-09-10 06:02:21,443 [INFO] app.cli - analyze command completed: {'analysis_id': None, 'news_count': 0, 'failed': 0}
+2026-09-10 06:02:21,443 [INFO] __main__ - Application finished
+2026-09-10 06:02:21,458 [INFO] __main__ - Application started
+2026-09-10 06:02:21,466 [INFO] app.cli - list command started: category=기타, date_from=None, date_to=None, keyword=None, page=1, page_size=3
+2026-09-10 06:02:21,469 [INFO] app.cli - list command completed: total_count=45, returned=3
+2026-09-10 06:02:21,470 [INFO] __main__ - Application finished
+2026-09-10 06:02:21,471 [INFO] __main__ - Application started
+2026-09-10 06:02:21,481 [INFO] app.cli - list command started: category=None, date_from=None, date_to=None, keyword=프랑스, page=1, page_size=3
+2026-09-10 06:02:21,485 [INFO] app.cli - list command completed: total_count=3, returned=3
+2026-09-10 06:02:21,485 [INFO] __main__ - Application finished
+2026-09-10 06:02:28,485 [INFO] __main__ - Application started
+2026-09-10 06:02:28,491 [INFO] app.cli - list command started: category=None, date_from=2025-01-01, date_to=2026-12-31, keyword=None, page=1, page_size=3
+2026-09-10 06:02:28,493 [INFO] app.cli - list command completed: total_count=30, returned=3
+2026-09-10 06:02:28,494 [INFO] __main__ - Application finished
+2026-09-10 06:02:54,739 [INFO] __main__ - Application started
+2026-09-10 06:02:54,745 [INFO] __main__ - Application finished
+2026-09-12 10:54:33,846 [INFO] __main__ - Application started
+2026-09-12 10:54:33,873 [INFO] __main__ - Application finished
+2026-09-12 13:00:00,999 [INFO] __main__ - Application started
+2026-09-12 13:00:01,025 [INFO] __main__ - Application finished
+2026-09-12 14:33:37,723 [INFO] __main__ - Application started
+2026-09-12 14:33:37,735 [INFO] app.cli - fetch command started: method=rss, source=None, limit=20, category=None
+2026-09-12 14:33:38,240 [INFO] app.fetcher - RSS news collection started: source=rss, limit=20
+2026-09-12 14:33:38,761 [INFO] app.fetcher - RSS news collection completed: fetched=20, saved=20, skipped=0, failed=0
+2026-09-12 14:33:38,761 [INFO] app.cli - fetch command completed: {'fetched': 20, 'saved': 20, 'skipped': 0, 'failed': 0}
+2026-09-12 14:33:38,761 [INFO] __main__ - Application finished
+2026-09-12 14:35:42,404 [INFO] __main__ - Application started
+2026-09-12 14:35:42,415 [INFO] app.cli - clean command started: policy=skip, limit=None
+2026-09-12 14:35:42,415 [INFO] app.cleaner - News cleaning started: policy=skip, limit=None
+2026-09-12 14:35:42,427 [INFO] app.cleaner - Duplicate clean news skipped: url=https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/
+2026-09-12 14:35:42,430 [INFO] app.cleaner - Duplicate clean news skipped: url=https://github.com/iczelia/bzip3
+2026-09-12 14:35:42,434 [INFO] app.cleaner - Duplicate clean news skipped: url=https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/
+2026-09-12 14:35:42,435 [INFO] app.cleaner - Duplicate clean news skipped: url=https://mathathonchallenge.com/index.html
+2026-09-12 14:35:42,437 [INFO] app.cleaner - Duplicate clean news skipped: url=https://jyn.dev/simple-is-not-the-same-as-small/
+2026-09-12 14:35:42,439 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0Y0I1T1E2SjdyV2ctTjViQzI1MjBadWFQb2lGb1U5a3pUak05NXBBVXJqTkVIQ0Y0d2p6NXVHWnNDMnlRczhQeGFibUM0dlNBQ04yYkJnTUltQdIBX0FVX3lxTE1WZmItQWRZbUpLR0NyTzhDUDZELTFwNmNNU1EzbDRKOVBPcGpmTDRoVjZqMi13SmVzbm9Pdk1wYV9nX19LOFlQLVJJTjlzVHJVSlNFTjB4RmJSdHNNNUtN?oc=5
+2026-09-12 14:35:42,440 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBNaVN3b2E4MUUteXRVWWE0LVNFOFFlOUpjcGJWSE13UzFya01OeEhrNHNGcDVpMkFGcFpCb3JKbzd1MUhXVUh5dG5Fa1A3NC0ybmNQdkNTTWQxVU1YVll6Q3NkOXhBWk91OUJURXkwZEh2NUlmYVdz0gFmQVVfeXFMT1hLUTRjaWoxZmN6aU5jZl9TWFZMUEp0NGFsR2pRVFYtbEwtWEtjU0ZEbHhvbjB4Wjc3WS01R0phQi1VdU5CRndxZHBkcER0UWc4X05yNFdMSHBPQWxGVmhqVWczYVFB?oc=5
+2026-09-12 14:35:42,442 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE8wVUhqS1ZtaS1hbmZPQ0dBd21VNnJWYXJiWEd2alV3ZFE5ZUlxT29TUXhWdzY3X0tBdmpvbWwtTGhQTG5EZ0o0aU1RTFQ2S1hVLXQyTlFjVzg5N0hFTGtEdEtneDRQWFo2QnNR?oc=5
+2026-09-12 14:35:42,444 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5MMFRsS0ZTS2JTSm1qc21WZDgxQUNZTHd4Wmx5X0Vnc3hYTTZCWVpyM0tjZWhNSzlERzdZQXpXdDdsdnF6NXJRODhtUkllOVk5S1BYZ2dURExEMG82OXNLcnlFUHQ0cFR3VW1MbUNIeFFPQQ?oc=5
+2026-09-12 14:35:42,447 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE50NWQ3d0FBZlI5TGVIaHBXbUZyMW1PRXpaSjNLaG5PU1BRWVU3SlJfaHgzRWp2T0d2SXVWSkNFMm92T1VKU21ERFFjZjhnYUk4VVozNzA3VDM5MjdybGtzX18tdDhudWktY2ktNmZEclE2RHVK?oc=5
+2026-09-12 14:35:42,448 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRHBEbGxIQjBuWVVDX2hGUFRRS0pKWGhYalJoQ1RMeG1zaWVBSl9OY0wyTkpQaHBXYmloV3ZSUTZnd2JTdm1tX1pnWU9vdzQ3UFQ3VnpCT1pCSjQ?oc=5
+2026-09-12 14:35:42,451 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQVJnM0pSaXlaclNpLUQ5cHZDSWotbEN1SDMxNjlJS1kySnFBYzVBaUIyWW1USnNLc1VGUENwNVNRSTdPSDlFNk44bTkyUlpMQ280X2lJX1VMMVRQdHVHdWFWTlR1LVdMa0h4dFFyUjkyT0My?oc=5
+2026-09-12 14:35:42,453 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySmMtekUtcFU1NkJEYmRneGUtaGVUZldOcFNiOUFuS3FwY013R0lfT29FYTlvWU9NYWUxbzJBTktxcXl3bi1BMTRqa3pVdGJ3R0dxN2NqOGxGZE3SAWBBVV95cUxOUFBWRWF2V2JiSzF1VDRfUDNISFU2eWs1Tjd0R083VDB6R0hTbmVhZFRMSENOaS05b0xQVEZ1ZWxXYjE4b0liZVJIMFZaSlY1d1NQeXJxNjg5MlZxb0E3SGo?oc=5
+2026-09-12 14:35:42,454 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFA4ZGhLRl9FV1dmNkd4NFp6UTJNWW4tSmI5UDdvY3NvSmRQLVFCbnd4YlVZSUhsNm9LQlVqeEQzOTMxQjF1MWhFRjBmV2VsVjFrRV9MRDF0djFEQ1FhYjVCSGRBb2tDRGZMQ3NzbWcwNGRPMWV3UHVB0gFmQVVfeXFMTlVQOVNNYlBLaWpfTWcxaFpfc0liU2wta0I4dVkwUnB1YzFkbDVydkhQbWhzZGl4TDRBQlZUTWJxcjZncmhCWnN1QkFqMF9NNnNVQ294NlZpTkNUd05zLXl4blpyS1Rn?oc=5
+2026-09-12 14:35:42,457 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDd3Nk54OG1JZHV0WlFjdEYwRzdRVkE1cVpuTEZiSVE3OFI3WENMVjNwWmJGTllVSVFPb3M4X1ZsTVRscjhRdDNXT2MtOVZ0NmRwX2gwcVNLeHJ4bXBGZDVMSVVYZzRZcXY0REZTRmZHTWRuTHI3bk9xcVpfS2xiZ0FB?oc=5
+2026-09-12 14:35:42,458 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNWdoaDRsbGoyS29IS0xTVXhjYlFpM0NzTUtjbGJGMEstTXZLMThFUUNrS19GcVVYanZybVlVcFNMbXhvb1N6TGFkLV9fT2VfWi0zbkxFRnIxQ1JJZGNRU3ZVX2xZMUk?oc=5
+2026-09-12 14:35:42,459 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uMGJlYjNYWlFpT1FWVFlpWC0yTmhpbHR0bGkyaE1rSTRDZlpRZHJPWDB0VWVVNlY0bjFWUUw3eEpPcFlSMkR1d2hrQmJ2X2xxblM3VEpvMUdEd9IBX0FVX3lxTE5QWHp1TXdjWmczSXkyN3pFR0djUlh3RGIyX1FINDRBOFhMTXNmZlFNelJSV0ZJYnBPWWFwd1E2R0M0c1NVQ0g0NTVPSVliaFVfYlFNdFFPaHh5WWl5c3BN?oc=5
+2026-09-12 14:35:42,462 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxNakNudnBULXdHUTczVEhZYk04SC1JNzgtV2p3bXlxMFZXNGktTUZFb2d6NWc0cFBqcDBYYVhLUU1OQmppTjFYb1ZvM2ViTFFLcGRLNER5amJhczNyUWV0NDZJRXYtTlE3b09ybFZlaFNjUy1LSkdZX0dCZjM1TTUzcVFzQVhWQlZtSVZ1Yk1sVkE?oc=5
+2026-09-12 14:35:42,465 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMia0FVX3lxTE5oUEMwT3ZvNFNrcWdfVDhCWkdUY2IwVllhUEZsT1F2amp0VEt5UGhQTGx5MnE5NExHNmFHaDlSdXdJREVXZnNEZjVSV1FPQmRsc2JrbG8tc29YMTBrUlpva3N5cGNhZmZIOHk0?oc=5
+2026-09-12 14:35:42,467 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE0ycXU3Zm9zTTkyNVFWU01WRUlTd09DclhFSXpYeERkMzlRdmZHWTB5U253dm5WLVN3OS02dHotLUhEUWstcW4yb3lmUVBsZjFYd3VFWkNfV3VfcnhQMTJlVFpMcFk4U2Z4eTFqTjdwMkgwUnV6?oc=5
+2026-09-12 14:35:42,468 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMibkFVX3lxTFBLbk1NVUlBNWJfMXBJdTJQSGhobVY4RzdZNk5jZjJxeExIOUtEd3VSdEk3MWtpY0d5MmdnQmxiMWFoeERLYm5EWGJPajRnbXd3cDQxaFhzQXVYdk5NNjFrdzlSSlZ1UG8xMjVrMDZR?oc=5
+2026-09-12 14:35:42,469 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nQU1MSWI5c1Z0cEVvWExpTTJzTnNJMHoxNGxsOTF6WkVIQzUtWHl3VE5rdDRHSzVJU0RpSXdmTzFpdEJmS2pRbkNBUkxrU25fZjVpTDVDM2xyOWc?oc=5
+2026-09-12 14:35:42,470 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMickFVX3lxTE5OUjhDSVRRbUFBbTRRVGI0WWRDY2xmdzNDaHlta05mbE53YWhWbmZMa0Q4STY3MGZiWE1qei1heGNNbHVDZTFXRGdpSHdBM1h6QUV0WmxFd295T2JDQmxTUFk4QVJDQjd1TWZUSnpJV3lOdw?oc=5
+2026-09-12 14:35:42,471 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMikAFBVV95cUxQa2VLMDJCVzBiNERNMXZXajZnUDJTZFREX2Q4UjgtQmJBNXdtTHBaZ3JRTDMyS01CVWJBTUVSN2dUOHJocXFEMkgxRW9RaE1YeE9JSlU0bmV4OHd0RkFQT3lXQ3hPZ2dzNlJUYUY2MHdQTzU3OXVGZlBDR3BNQ0hOVHRjejNya0pvZzlGbkVNTTE?oc=5
+2026-09-12 14:35:42,473 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tUmI1WS1QNndydV9KNUNvVjQ5TURaN3BFTmM0VWFkaUpFVERZcE1ZSW90a2ZELUlScXF2bFVGalJSSGZFMWlCSFZxc3V0dFJIdVNBeGN0R3VkUlE?oc=5
+2026-09-12 14:35:42,474 [INFO] app.cleaner - Duplicate clean news skipped: url=https://jellyfin.org/posts/jellyfin-release-12.0/
+2026-09-12 14:35:42,475 [INFO] app.cleaner - Duplicate clean news skipped: url=https://mcpherrin.ca/2026/09/07/rsa.html
+2026-09-12 14:35:42,476 [INFO] app.cleaner - Duplicate clean news skipped: url=https://d2lang.com/blog/tala-is-open-source/
+2026-09-12 14:35:42,478 [INFO] app.cleaner - Duplicate clean news skipped: url=https://lax-skyline.parcelscope.net/
+2026-09-12 14:35:42,480 [INFO] app.cleaner - Duplicate clean news skipped: url=https://github.com/Sadpainy/Stuxnet
+2026-09-12 14:35:42,482 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE5EU1dzZUhQWGpZOVRpdHprVG1XSjhWTDl4TTNraGJhTmNtdUNSbTdpc0pHMWRUOEVKUmhjMDY4WU1uYWtxcTFQamRGZVBCcHN4UXVwQWEteVlEMzRHem1MMDRHWGZnMVJwcG9nYk5oUWpoUThm?oc=5
+2026-09-12 14:35:42,483 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Cb040dHhQa3NwUlJNWWpkVmNuRkpWS3dyLWQwX1ZGTlN5bUFPYU5TSllXMks4ZnNWMmZuZ0RtdDh4WDJYb1E2NWdXcmdXR2o2NXZHN3R6R2w4Zw?oc=5
+2026-09-12 14:35:42,484 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rQ0k1ZTE3ZVVmRzg0SDctOG1NSXlrY0tvLWNTeGRaQjhQR3BjWXlwSXlnbGpqTnJ2RWlTVkZMMWFxU2V0SVRmaTVnU01QdG1YUkk4Zlp3Yks0d9IBX0FVX3lxTE1TUUs1ck9UNDlUcUswd2NTcGRJSjJtdU9KcnRmeXUzaWRWVlFiOWNyaWt0WVUyalpJWm1uUUZNUkFGWi16b0VUNEpyNG9JTU1IRnF0NGJPQUlyQUk5ZnN3?oc=5
+2026-09-12 14:35:42,486 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMidEFVX3lxTE5YeTZXeV9YaGU1bzlHQWZJVlhZbkpjRXZjS2R5blZHaC1TbHN2Q3JnUzJPQVJVSFlPRWFRa3YtcVlwRjI3Q3FpdEJzZHROT2NfZUZSQzR3WXJnNWVqMFI0MF9hZkc1X2lMMXZaOEY5U0ZNRkxH0gF0QVVfeXFMTzhRV1hzRTVURXhmYW1aY1A5dzMyUUowMmNjSTZoUk9BZFE3UGNmd1Z6TGZ2LThWejFLajZBZ1otLW1SSXE1SjZfRWw3SVJYRmlBWmJjdDFGXzNuWURKVVEzbjdUVC16U2hBRENJT1ZZZXY5SFc?oc=5
+2026-09-12 14:35:42,488 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUYVNiT1FSQndrNU04YU85SzVqX2hrbzIxSzFwazJaVlllRFV1R3FfalhOa1BzbExaSDlYanJ4TDhWd3BSVGxBd2huNGRlNVdVelN6MWVwZzdRUzZpdWc?oc=5
+2026-09-12 14:35:42,489 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrd0Z0TnBDRGZxeG45TFNWWlJWUXI2WDRjSWxxc2FkaUNQdHI4S2hhOVdjeWNBbFdTbzJ3YlRoLTVuck45RW9OMV92dWJ2YXQ3TmRoZDlHSWFkdDg?oc=5
+2026-09-12 14:35:42,490 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFBpU2ljbkpiMGQyQVlpNHNvMG1vU1N2ZVJjeDVDRlFwQndKZndGbFhqZFZneC1URHBvN2dyWXkyT0JjeXhXNGQyY1pVcDZQTWpnQlh5T2RJbFRadXdZNzRNek16V1N0T0MwR0JWSUQtX01rSTE2N0w00gF3QVVfeXFMUEtlRFZsMFdhOG9GNDBXLXhVRlhfVWphQ0VJSlFPbWp5X2l6bzMxbnNSQVJIX2lUR09TRHdTTlc0Y3BIbExOaDZhcnRfaFF4a19XNWFUQVhWRm1ZN2FId3BVQ1p4WjY1LXk5ZnpWb295cjJZcWJ6VDQ?oc=5
+2026-09-12 14:35:42,492 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UWHV5QTNpelV1T3VFSmhua0NIYUtmYzBmLWpVd2FJZUlxenQ5MU94dVhEZU93cW5LcGs1VFFWa1I5V1VNRlJ5MzRGbWEtZWpYbmFFcTRLVHRoQQ?oc=5
+2026-09-12 14:35:42,493 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMid0FVX3lxTFAwWHVVcHl6ZFZnSnFBVFpFNkFIakV1NUduQ1BRSkk4c1ZxQW5GVWtsR25GRk9sRWdtVEJpcC1PSnNtQzZhaU94bU1saXY4U09VeTZ5SmFtaEswMlJBUy1xc1JHaEVjWGFUOFZyYjBPOFNOMzI0aWQw0gF3QVVfeXFMTmx1elpZUGthaU14MVBaM1lFa2NSN3hESHBsVWQ5bnhWU2RRRlVtVnNYT1EyZUdWX2NEMHdYM29WVzRUdTR5OGZrUW0yVGtoSm9NTzN0a0RNZmN1Y3RDTjRMMUo5UFlKNmlmUzNQaklTZ24zQkVqQ00?oc=5
+2026-09-12 14:35:42,496 [INFO] app.cleaner - Duplicate clean news skipped: url=https://news.google.com/rss/articles/CBMibkFVX3lxTFAzWG8tLWdYRG9weUZTbFh5cXNyczk2eDBRc3RrMjBMTWdXMVBJME11d1JyamxEYWtuLUo5VHVFNF9JaWRlbXNOMzNHQnROckNfMnJWcjZrTGhDOWhqTDd6a29VS3hSalJPWWpOeFZ3?oc=5
+2026-09-12 14:35:42,498 [INFO] app.cleaner - Duplicate clean news skipped: url=https://www.apple.com/iphone-duo/
+2026-09-12 14:35:42,500 [INFO] app.cleaner - Duplicate clean news skipped: url=https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/
+2026-09-12 14:35:42,501 [INFO] app.cleaner - Duplicate clean news skipped: url=https://tailwindcss.com/blog/tailwind-is-joining-shopify
+2026-09-12 14:35:42,502 [INFO] app.cleaner - Duplicate clean news skipped: url=https://tautology.town/2026/06/01/card-networks.html
+2026-09-12 14:35:42,503 [INFO] app.cleaner - Duplicate clean news skipped: url=https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/
+2026-09-12 14:35:42,686 [INFO] app.cleaner - News cleaning completed: inserted=20, updated=0, skipped=45, failed=0
+2026-09-12 14:35:42,687 [INFO] app.cli - clean command completed: {'inserted': 20, 'updated': 0, 'skipped': 45, 'failed': 0}
+2026-09-12 14:35:42,688 [INFO] __main__ - Application finished
+2026-09-12 14:36:58,614 [INFO] __main__ - Application started
+2026-09-12 14:36:58,626 [INFO] app.cli - summarize command started: id=None, all=False, unsummarized=True, limit=None
+2026-09-12 14:36:58,637 [INFO] app.summarizer - Summarize started
+2026-09-12 14:36:58,637 [INFO] app.summarizer - Using Gemini model: gemini-3.6-flash
+2026-09-12 14:36:58,637 [INFO] app.summarizer - Target news count: 58
+2026-09-12 14:37:02,216 [INFO] app.summarizer - [SKIP] Short content clean_news_id=35 content_length=19
+2026-09-12 14:37:02,217 [INFO] app.summarizer - Summarizing clean_news_id=39 title="한동훈 “신약 로비, ‘민주당 오빠들 게이트’”…김승원 이어 최재성 녹취도 - hani.co.kr"
+2026-09-12 14:37:02,217 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:37:02,217 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-12 14:37:59,469 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:37:59,505 [INFO] app.summarizer - [OK] Summary saved clean_news_id=39
+2026-09-12 14:37:59,506 [INFO] app.summarizer - Summarizing clean_news_id=40 title="한국어로 “호르무즈 파병, 침략 행위 공모”…이란 또 경고 - hani.co.kr"
+2026-09-12 14:37:59,506 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:38:49,281 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:38:49,323 [INFO] app.summarizer - [OK] Summary saved clean_news_id=40
+2026-09-12 14:38:49,324 [INFO] app.summarizer - Summarizing clean_news_id=41 title="용혜인, 과거 본인이 징계안 냈던 의원들에게 이번엔 검증받는다 - 경기일보"
+2026-09-12 14:38:49,324 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:39:49,799 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:39:49,846 [INFO] app.summarizer - [OK] Summary saved clean_news_id=41
+2026-09-12 14:39:49,846 [INFO] app.summarizer - Summarizing clean_news_id=42 title="대미투자 1호는 ‘30조 텍사스 가스발전소’…원전 8기도 검토 - hani.co.kr"
+2026-09-12 14:39:49,846 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:40:17,878 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:40:17,912 [INFO] app.summarizer - [OK] Summary saved clean_news_id=42
+2026-09-12 14:40:17,913 [INFO] app.summarizer - Summarizing clean_news_id=43 title="李대통령 지지도 37.4%로 또 최저치…서울·2030 지지율 20%대[리얼미터](종합) - 연합뉴스"
+2026-09-12 14:40:17,913 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:40:53,372 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:40:53,411 [INFO] app.summarizer - [OK] Summary saved clean_news_id=43
+2026-09-12 14:40:53,412 [INFO] app.summarizer - Summarizing clean_news_id=44 title="[단독]“‘장모 찬스’ 영끌매수 홍지선, 이자소득세 안 낸 의혹” - 동아일보"
+2026-09-12 14:40:53,412 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:41:13,708 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:41:13,747 [INFO] app.summarizer - [OK] Summary saved clean_news_id=44
+2026-09-12 14:41:13,747 [INFO] app.summarizer - Summarizing clean_news_id=45 title="러시아 “독일, 다시 전쟁 원하나”…‘공항 폭탄 드론’ 배후 지목에 반발 - hani.co.kr"
+2026-09-12 14:41:13,748 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:41:26,121 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:41:26,169 [INFO] app.summarizer - [OK] Summary saved clean_news_id=45
+2026-09-12 14:41:26,170 [INFO] app.summarizer - Summarizing clean_news_id=46 title="대한체육회·경찰, 충돌 없이 핸드볼경기장 진입…봉쇄시위 95일만 - 연합뉴스TV"
+2026-09-12 14:41:26,170 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:41:35,548 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:41:35,589 [INFO] app.summarizer - [OK] Summary saved clean_news_id=46
+2026-09-12 14:41:35,589 [INFO] app.summarizer - Summarizing clean_news_id=47 title="[스팟+터뷰] 이기헌 민주당 의원 “파병은 헌법과 국익에 맞지 않아…트럼프에 멈추라고 이야기할 때가 됐다” - 경향신문"
+2026-09-12 14:41:35,590 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:41:48,145 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:41:48,184 [INFO] app.summarizer - [OK] Summary saved clean_news_id=47
+2026-09-12 14:41:48,184 [INFO] app.summarizer - Summarizing clean_news_id=48 title="靑, 김승원·용혜인 그대로 간다… "청문회 거쳐야" - 조선일보"
+2026-09-12 14:41:48,184 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:41:59,163 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:41:59,212 [INFO] app.summarizer - [OK] Summary saved clean_news_id=48
+2026-09-12 14:41:59,213 [INFO] app.summarizer - Summarizing clean_news_id=49 title="이 대통령, 초대 중수청장에 김지용 변호사 지명 - 한겨레"
+2026-09-12 14:41:59,213 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:42:07,743 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:42:07,788 [INFO] app.summarizer - [OK] Summary saved clean_news_id=49
+2026-09-12 14:42:07,789 [INFO] app.summarizer - Summarizing clean_news_id=50 title="“한동훈, 자료유출 되치기 한심”…국힘 당권파에 홍준표 “똑똑하네” - 한겨레"
+2026-09-12 14:42:07,790 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:42:21,688 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:42:21,733 [INFO] app.summarizer - [OK] Summary saved clean_news_id=50
+2026-09-12 14:42:21,734 [INFO] app.summarizer - Summarizing clean_news_id=51 title="대한민국과 프랑스, 영화·영상의 길을 환히 비추다 - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑"
+2026-09-12 14:42:21,734 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:42:31,542 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:42:31,642 [INFO] app.summarizer - [OK] Summary saved clean_news_id=51
+2026-09-12 14:42:31,643 [INFO] app.summarizer - Summarizing clean_news_id=52 title="김승원 ‘배우자 부동산 신고 누락’에 “상속세 납부하겠다” - KBS 뉴스"
+2026-09-12 14:42:31,644 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:42:43,130 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:42:43,186 [INFO] app.summarizer - [OK] Summary saved clean_news_id=52
+2026-09-12 14:42:43,187 [INFO] app.summarizer - Summarizing clean_news_id=53 title="뺑소니 도주하고 지인에 덮어씌운 ‘위증 사건’…형소법 개정 후 처벌 공백 우려 - 한겨레"
+2026-09-12 14:42:43,187 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:42:56,314 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:42:56,396 [INFO] app.summarizer - [OK] Summary saved clean_news_id=53
+2026-09-12 14:42:56,397 [INFO] app.summarizer - Summarizing clean_news_id=54 title="[단독] 이소영 고액 후원자 배우자 공천...野 “‘공천 헌금’ 논란” - 조선일보"
+2026-09-12 14:42:56,397 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:43:09,571 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:43:09,649 [INFO] app.summarizer - [OK] Summary saved clean_news_id=54
+2026-09-12 14:43:09,650 [INFO] app.summarizer - Summarizing clean_news_id=55 title="검찰, ‘실종 허위 종결’ 제주경찰청·서부서 압수수색 - KBS 뉴스"
+2026-09-12 14:43:09,651 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:43:22,682 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:43:22,719 [INFO] app.summarizer - [OK] Summary saved clean_news_id=55
+2026-09-12 14:43:22,728 [INFO] app.summarizer - [SKIP] Short content clean_news_id=56 content_length=13
+2026-09-12 14:43:22,729 [INFO] app.summarizer - Summarizing clean_news_id=57 title="I've factored the RSA keys of a Certificate Authority from the 90s"
+2026-09-12 14:43:22,729 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:43:34,101 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:43:34,153 [INFO] app.summarizer - [OK] Summary saved clean_news_id=57
+2026-09-12 14:43:34,164 [INFO] app.summarizer - [SKIP] Short content clean_news_id=58 content_length=19
+2026-09-12 14:43:34,164 [INFO] app.summarizer - Summarizing clean_news_id=59 title="Watch Los Angeles get built, one building at a time (1880–2026)"
+2026-09-12 14:43:34,165 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:43:43,246 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:43:43,290 [INFO] app.summarizer - [OK] Summary saved clean_news_id=59
+2026-09-12 14:43:43,291 [INFO] app.summarizer - Summarizing clean_news_id=60 title="Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon"
+2026-09-12 14:43:43,291 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:43:56,799 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:43:56,866 [INFO] app.summarizer - [OK] Summary saved clean_news_id=60
+2026-09-12 14:43:56,867 [INFO] app.summarizer - Summarizing clean_news_id=61 title="한동훈 ‘김승원 녹취’ 공개…한성숙 “수사자료 유출 경위 확인 지시” - hani.co.kr"
+2026-09-12 14:43:56,867 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:09,414 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:44:09,455 [INFO] app.summarizer - [OK] Summary saved clean_news_id=61
+2026-09-12 14:44:09,456 [INFO] app.summarizer - Summarizing clean_news_id=62 title="李대통령 "제 임기는 헌법상 제한…野 '연임 개헌' 주장에 대응 - 한국경제"
+2026-09-12 14:44:09,456 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:09,714 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:09,739 [ERROR] app.summarizer - Gemini failed clean_news_id=62 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 50.330727323s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
+2026-09-12 14:44:09,740 [INFO] app.summarizer - Summarizing clean_news_id=63 title="정부 “한·프 공조, 파병 논의 아니다” - 경향신문"
+2026-09-12 14:44:09,740 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:09,992 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:10,018 [ERROR] app.summarizer - Gemini failed clean_news_id=63 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 50.041073428s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
+2026-09-12 14:44:10,019 [INFO] app.summarizer - Summarizing clean_news_id=64 title="미·이란 선박 타격전 속 이라크 영해서 유조선 피격 - MBC 뉴스"
+2026-09-12 14:44:10,019 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:10,261 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:10,277 [ERROR] app.summarizer - Gemini failed clean_news_id=64 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 49.772111805s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}"
+2026-09-12 14:44:10,277 [INFO] app.summarizer - Summarizing clean_news_id=65 title=""국고 빌붙는 정당"에 발끈?...용혜인은 침묵 - YTN"
+2026-09-12 14:44:10,277 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:10,539 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:10,558 [ERROR] app.summarizer - Gemini failed clean_news_id=65 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 49.495982542s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}"
+2026-09-12 14:44:10,559 [INFO] app.summarizer - Summarizing clean_news_id=66 title="실종자 가족 “국가가 국민 버렸다”…구호대 수색 성과 없어 - KBS 뉴스"
+2026-09-12 14:44:10,559 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:10,829 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:10,851 [ERROR] app.summarizer - Gemini failed clean_news_id=66 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 49.2137687s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}"
+2026-09-12 14:44:10,852 [INFO] app.summarizer - Summarizing clean_news_id=67 title="특검, '매관매직' 김건희 2심 징역 7년 구형‥金 눈물로 무죄 주장 - MBC 뉴스"
+2026-09-12 14:44:10,852 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:11,100 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:11,127 [ERROR] app.summarizer - Gemini failed clean_news_id=67 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 48.932331779s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}"
+2026-09-12 14:44:11,128 [INFO] app.summarizer - Summarizing clean_news_id=68 title="내일부터 '가을' 날씨…아침 기온 '11도'로 '뚝' - 한국경제"
+2026-09-12 14:44:11,128 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:11,366 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:11,405 [ERROR] app.summarizer - Gemini failed clean_news_id=68 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 48.670111997s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}"
+2026-09-12 14:44:11,405 [INFO] app.summarizer - Summarizing clean_news_id=69 title="부산 예인선 전복사고 실종자 1명 시신 7일 만에 발견 - MBC 뉴스"
+2026-09-12 14:44:11,405 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:11,623 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:11,645 [ERROR] app.summarizer - Gemini failed clean_news_id=69 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 48.411658964s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}"
+2026-09-12 14:44:11,645 [INFO] app.summarizer - Summarizing clean_news_id=70 title="한-프랑스 정상회담 결과, 국민께 보고드립니다 - 전체 | 카드/한컷 | 멀티미디어 - 정책브리핑"
+2026-09-12 14:44:11,647 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:11,905 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:11,942 [ERROR] app.summarizer - Gemini failed clean_news_id=70 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 48.131485492s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}"
+2026-09-12 14:44:11,956 [INFO] app.summarizer - [SKIP] Short content clean_news_id=71 content_length=10
+2026-09-12 14:44:11,967 [INFO] app.summarizer - [SKIP] Short content clean_news_id=72 content_length=9
+2026-09-12 14:44:11,977 [INFO] app.summarizer - [SKIP] Short content clean_news_id=73 content_length=25
+2026-09-12 14:44:11,978 [INFO] app.summarizer - Summarizing clean_news_id=74 title="What do Visa and Mastercard do? An intro to card networks"
+2026-09-12 14:44:11,978 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:12,174 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:12,201 [ERROR] app.summarizer - Gemini failed clean_news_id=74 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 47.85758661s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+2026-09-12 14:44:12,213 [INFO] app.summarizer - [SKIP] Short content clean_news_id=75 content_length=35
+2026-09-12 14:44:12,213 [INFO] app.summarizer - Summarizing clean_news_id=76 title="민주당 “용혜인 논란에 청년 세대 들끓어…대책 필요” - 경향신문"
+2026-09-12 14:44:12,213 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:12,463 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:12,485 [ERROR] app.summarizer - Gemini failed clean_news_id=76 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 47.57399059s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+2026-09-12 14:44:12,489 [INFO] app.summarizer - Summarizing clean_news_id=77 title="[연합뉴스 이 시각 헤드라인] - 10:30 - yna.co.kr"
+2026-09-12 14:44:12,490 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:12,723 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:12,746 [ERROR] app.summarizer - Gemini failed clean_news_id=77 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 47.31039246s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+2026-09-12 14:44:12,751 [INFO] app.summarizer - Summarizing clean_news_id=78 title="박선원, ‘김승원 의혹 제보자’ 신상 공개에…한동훈 “법 위반” - 한겨레"
+2026-09-12 14:44:12,751 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:13,009 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:13,025 [ERROR] app.summarizer - Gemini failed clean_news_id=78 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 47.023885694s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+2026-09-12 14:44:13,028 [INFO] app.summarizer - Summarizing clean_news_id=79 title="사우디, ‘호르무즈 우회로’ 동서송유관 폐쇄…이라크 쪽에서 드론 공격 - 한겨레"
+2026-09-12 14:44:13,029 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:13,312 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:13,340 [ERROR] app.summarizer - Gemini failed clean_news_id=79 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 46.720228022s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}"
+2026-09-12 14:44:13,341 [INFO] app.summarizer - Summarizing clean_news_id=80 title="김민석 ’서울시장’ 수첩 놓고 野 “사법부 압박“…與 “호들갑“ - yonhapnewstv.co.kr"
+2026-09-12 14:44:13,341 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:13,569 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:13,586 [ERROR] app.summarizer - Gemini failed clean_news_id=80 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 46.464070185s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}"
+2026-09-12 14:44:13,587 [INFO] app.summarizer - Summarizing clean_news_id=81 title="한동훈, '자료 유출 의혹' 수사 착수에 "경찰, 민주당 오빠들 이빨 되나" - YTN"
+2026-09-12 14:44:13,587 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:13,848 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:13,868 [ERROR] app.summarizer - Gemini failed clean_news_id=81 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 46.187217218s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}"
+2026-09-12 14:44:13,868 [INFO] app.summarizer - Summarizing clean_news_id=82 title="김승원측, 영장기각 판사 관련 “우연히 마주쳐”→“만남 이어온 사이” - 동아일보"
+2026-09-12 14:44:13,869 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:14,111 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:14,136 [ERROR] app.summarizer - Gemini failed clean_news_id=82 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 45.92382409s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+2026-09-12 14:44:14,137 [INFO] app.summarizer - Summarizing clean_news_id=83 title=""김승원 아들 열흘 중 사흘꼴 근무기록 비어"…"이용자 결석, 아들 귀책 아냐" - yonhapnewstv.co.kr"
+2026-09-12 14:44:14,137 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:14,393 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:14,424 [ERROR] app.summarizer - Gemini failed clean_news_id=83 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 45.640553135s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+2026-09-12 14:44:14,425 [INFO] app.summarizer - Summarizing clean_news_id=84 title="냉동창고서 꽁꽁 언 시신, 미리 살인을 계획했다?…“완전범죄 꿈꾼 듯” - 매일경제"
+2026-09-12 14:44:14,425 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:14,675 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:14,705 [ERROR] app.summarizer - Gemini failed clean_news_id=84 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 45.360486489s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+2026-09-12 14:44:14,706 [INFO] app.summarizer - Summarizing clean_news_id=85 title="40%대 무너진 李 지지율…김승원·용혜인 부적합 여론 압도 [갤럽] - 한국경제"
+2026-09-12 14:44:14,706 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:14,986 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:15,021 [ERROR] app.summarizer - Gemini failed clean_news_id=85 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 45.047803382s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+2026-09-12 14:44:15,021 [INFO] app.summarizer - Summarizing clean_news_id=86 title="한화에어로스페이스, 6411억원 규모 천무 유도미사일 크로아티아 첫 수출 - gukjenews.com"
+2026-09-12 14:44:15,022 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:15,278 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:15,318 [ERROR] app.summarizer - Gemini failed clean_news_id=86 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 44.756044669s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}"
+2026-09-12 14:44:15,319 [INFO] app.summarizer - Summarizing clean_news_id=87 title="9·11때 아버지 잃은 딸, 테러 25주기 맞아 양키스타디움서 시구 - yna.co.kr"
+2026-09-12 14:44:15,319 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:15,590 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:15,612 [ERROR] app.summarizer - Gemini failed clean_news_id=87 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 44.444628408s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}"
+2026-09-12 14:44:15,613 [INFO] app.summarizer - Summarizing clean_news_id=88 title="밴스는 이란 피하고, 트럼프는 농담쇼… 현실 외면한 美 공화당 전당대회 - 조선일보"
+2026-09-12 14:44:15,613 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:15,884 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:15,904 [ERROR] app.summarizer - Gemini failed clean_news_id=88 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 44.151170672s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}"
+2026-09-12 14:44:15,904 [INFO] app.summarizer - Summarizing clean_news_id=89 title="유엔 사무총장·영국 왕 ‘北 정권 수립 축하’ 전보 공개한 북한 - 조선일보"
+2026-09-12 14:44:15,905 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:16,150 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:16,170 [ERROR] app.summarizer - Gemini failed clean_news_id=89 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 43.885813324s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+2026-09-12 14:44:16,171 [INFO] app.summarizer - Summarizing clean_news_id=90 title="[뉴욕마켓워치] 9월 금리인상에 쐐기 박은 CPI…주식·달러↑채권 혼조 - 연합인포맥스"
+2026-09-12 14:44:16,171 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:16,427 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:16,463 [ERROR] app.summarizer - Gemini failed clean_news_id=90 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 43.606810337s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+2026-09-12 14:44:16,463 [INFO] app.summarizer - Summarizing clean_news_id=91 title="공교롭게도 또 9·11에 뉴욕으로 간 산업장관…러트닉 설득할까 - v.daum.net"
+2026-09-12 14:44:16,464 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:16,708 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:16,736 [ERROR] app.summarizer - Gemini failed clean_news_id=91 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 43.325179377s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+2026-09-12 14:44:16,737 [INFO] app.summarizer - Summarizing clean_news_id=92 title="트럼프, AI 종말론 위험 일축…"중국 우위가 최우선" - AI타임스"
+2026-09-12 14:44:16,738 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:17,008 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:17,038 [ERROR] app.summarizer - Gemini failed clean_news_id=92 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 43.023918971s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+2026-09-12 14:44:17,038 [INFO] app.summarizer - Summarizing clean_news_id=93 title="83주 상승한 서울 아파트값…“100주간 오를수도” - 문화일보"
+2026-09-12 14:44:17,038 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:17,264 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:17,279 [ERROR] app.summarizer - Gemini failed clean_news_id=93 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 42.771155268s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}"
+2026-09-12 14:44:17,298 [INFO] app.summarizer - [SKIP] Short content clean_news_id=94 content_length=40
+2026-09-12 14:44:17,299 [INFO] app.summarizer - Summarizing clean_news_id=95 title="다시 켜진 스타크래프트 '부활신호' - 중소기업신문"
+2026-09-12 14:44:17,299 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:17,564 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:44:17,578 [ERROR] app.summarizer - Gemini failed clean_news_id=95 error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 42.470337123s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}"
+2026-09-12 14:44:17,579 [INFO] app.summarizer - Summarize completed
+2026-09-12 14:44:17,580 [INFO] app.cli - summarize command completed: {'created_or_updated': 21, 'skipped_short_content': 8, 'failed': 29}
+2026-09-12 14:44:17,580 [INFO] __main__ - Application finished
+2026-09-12 14:44:17,891 [INFO] __main__ - Application started
+2026-09-12 14:44:17,908 [INFO] app.cli - analyze command started: date_from=None, date_to=None, category=None, limit=10
+2026-09-12 14:44:17,909 [INFO] app.analyzer - Analyze started
+2026-09-12 14:44:17,909 [INFO] app.analyzer - Using Gemini model: gemini-3.6-flash
+2026-09-12 14:44:17,909 [INFO] app.analyzer - Analyze filters: date_from=None, date_to=None, category=None, limit=10
+2026-09-12 14:44:17,911 [INFO] app.analyzer - Target news count: 10
+2026-09-12 14:44:18,820 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:18,820 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-12 14:44:44,393 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:44:44,423 [INFO] app.analyzer - Analyze completed: analysis_id=3
+2026-09-12 14:44:44,425 [INFO] app.cli - analyze command completed: {'analysis_id': 3, 'news_count': 10, 'failed': 0}
+2026-09-12 14:44:44,426 [INFO] __main__ - Application finished
+2026-09-12 14:44:51,542 [INFO] __main__ - Application started
+2026-09-12 14:44:51,557 [INFO] app.cli - analyze command started: date_from=None, date_to=None, category=None, limit=10
+2026-09-12 14:44:51,558 [INFO] app.analyzer - Analyze started
+2026-09-12 14:44:51,558 [INFO] app.analyzer - Using Gemini model: gemini-3.6-flash
+2026-09-12 14:44:51,558 [INFO] app.analyzer - Analyze filters: date_from=None, date_to=None, category=None, limit=10
+2026-09-12 14:44:51,560 [INFO] app.analyzer - Target news count: 10
+2026-09-12 14:44:52,552 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:44:52,553 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-12 14:45:13,192 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-12 14:45:13,228 [INFO] app.analyzer - Analyze completed: analysis_id=4
+2026-09-12 14:45:13,232 [INFO] app.cli - analyze command completed: {'analysis_id': 4, 'news_count': 10, 'failed': 0}
+2026-09-12 14:45:13,232 [INFO] __main__ - Application finished
+2026-09-12 14:51:14,744 [INFO] __main__ - Application started
+2026-09-12 14:51:14,756 [INFO] app.cli - analyze command started: date_from=None, date_to=None, category=None, limit=10
+2026-09-12 14:51:14,759 [INFO] app.analyzer - Analyze started
+2026-09-12 14:51:14,759 [INFO] app.analyzer - Using Gemini model: gemini-3.6-flash
+2026-09-12 14:51:14,760 [INFO] app.analyzer - Analyze filters: date_from=None, date_to=None, category=None, limit=10
+2026-09-12 14:51:14,762 [INFO] app.analyzer - Target news count: 10
+2026-09-12 14:51:15,703 [INFO] google_genai.models - AFC is enabled with max remote calls: 10.
+2026-09-12 14:51:15,703 [WARNING] google_genai.models - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-12 14:51:16,330 [INFO] httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-09-12 14:51:16,332 [ERROR] app.analyzer - Gemini analysis failed error="429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 43.704642042s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+2026-09-12 14:51:16,334 [INFO] app.cli - analyze command completed: {'analysis_id': None, 'news_count': 10, 'failed': 1}
+2026-09-12 14:51:16,334 [INFO] __main__ - Application finished
+2026-09-12 14:51:54,211 [INFO] __main__ - Application started
+2026-09-12 14:51:54,222 [INFO] app.cli - report command started: format=md, top_n=10
+2026-09-12 14:51:54,222 [INFO] app.reporter - Report generation started: format=md, top_n=10
+2026-09-12 14:51:57,813 [INFO] app.visualizer - Category chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\category_counts_20260912_145157_600033.png
+2026-09-12 14:51:57,950 [INFO] app.visualizer - Daily chart saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\charts\daily_counts_20260912_145157_838917.png
+2026-09-12 14:51:57,959 [INFO] app.reporter - Report saved: C:\Users\ydkim\Desktop\codyssey\A2-2\data\reports\news_report_20260912_145157_951439.md
+2026-09-12 14:51:57,960 [INFO] app.cli - report command completed
+2026-09-12 14:51:57,960 [INFO] __main__ - Application finished
+2026-09-12 14:53:06,135 [INFO] __main__ - Application started
+2026-09-12 14:53:06,149 [INFO] app.cli - export command started: table=clean_news, format=excel, status=summarized, summarized=False
+2026-09-12 14:53:06,149 [INFO] app.exporter - Export started: table=clean_news, format=excel
+2026-09-12 14:53:10,959 [INFO] app.exporter - Export completed: path=C:\Users\ydkim\Desktop\codyssey\A2-2\data\exports\export_clean_news_20260912_145306_151249.xlsx, rows=25
+2026-09-12 14:53:10,960 [INFO] app.cli - export command completed
+2026-09-12 14:53:10,960 [INFO] __main__ - Application finished
+2026-09-12 14:59:50,683 [INFO] __main__ - Application started
+2026-09-12 14:59:50,698 [INFO] __main__ - Application finished
+2026-09-14 10:41:49,240 [INFO] __main__ - Application started
+2026-09-14 10:41:49,285 [INFO] __main__ - Application finished
+2026-09-14 10:42:45,268 [INFO] __main__ - Application started
+2026-09-14 10:42:45,279 [INFO] __main__ - Application finished
+2026-09-14 10:43:49,664 [INFO] __main__ - Application started
+2026-09-14 10:43:49,677 [INFO] __main__ - Application finished
+2026-09-14 10:45:29,926 [INFO] __main__ - Application started
+2026-09-14 10:45:29,938 [INFO] app.cli - fetch command started: method=rss, source=None, limit=10, category=None
+2026-09-14 10:45:30,356 [INFO] app.fetcher - RSS news collection started: source=rss, limit=10
+2026-09-14 10:45:30,859 [INFO] app.fetcher - RSS news collection completed: fetched=10, saved=10, skipped=0, failed=0
+2026-09-14 10:45:30,859 [INFO] app.cli - fetch command completed: {'fetched': 10, 'saved': 10, 'skipped': 0, 'failed': 0}
+2026-09-14 10:45:30,859 [INFO] __main__ - Application finished
+2026-09-14 10:46:24,384 [INFO] __main__ - Application started
+2026-09-14 10:46:24,395 [INFO] app.cli - fetch command started: method=rss, source=None, limit=10, category=None
+2026-09-14 10:46:24,444 [INFO] app.fetcher - RSS news collection started: source=rss, limit=10
+2026-09-14 10:46:24,897 [INFO] app.fetcher - RSS news collection completed: fetched=10, saved=10, skipped=0, failed=0
+2026-09-14 10:46:24,898 [INFO] app.cli - fetch command completed: {'fetched': 10, 'saved': 10, 'skipped': 0, 'failed': 0}
+2026-09-14 10:46:24,898 [INFO] __main__ - Application finished
